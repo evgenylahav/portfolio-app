@@ -20,10 +20,8 @@ export class CarouselComp extends React.Component<{}, CarouselCompState> {
             <Carousel>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100"
+                        className="carousel-img"
                         src={ im1 }
-                        width="500"
-                        height="500"
                         alt="First slide"
                     />
                     <Carousel.Caption>
@@ -33,10 +31,8 @@ export class CarouselComp extends React.Component<{}, CarouselCompState> {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100"
+                        className="carousel-img"
                         src={ im2 }
-                        width="200"
-                        height="500"
                         alt="Third slide"
                     />
 
@@ -47,10 +43,8 @@ export class CarouselComp extends React.Component<{}, CarouselCompState> {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100"
+                        className="carousel-img"
                         src={ im3 }
-                        width="500"
-                        height="500"
                         alt="Third slide"
                     />
 

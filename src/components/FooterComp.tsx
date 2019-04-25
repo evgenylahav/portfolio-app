@@ -1,6 +1,7 @@
 import React from 'react';
 import { AwesomeButtonSocial } from 'react-awesome-button';
-
+import { Footer, FooterSection, FooterLinkList } from 'react-mdl'
+// import './FooterComp.scss';
 export interface FooterCompState {
 
 }
@@ -17,7 +18,13 @@ export class FooterComp extends React.Component<{}, FooterCompState> {
 
     public render() {
         return (
-            <div>                
+            <Footer className='footer-color' size="mini">
+                <FooterSection type="left" logo="Title">
+                    <FooterLinkList>
+                        <a href="#">Help</a>
+                        <a href="#">Privacy & Terms</a>
+                    </FooterLinkList>
+                </FooterSection>
                 <AwesomeButtonSocial
                     cssModule={AwesomeButtonStyles}
                     type="twitter"
@@ -36,7 +43,7 @@ export class FooterComp extends React.Component<{}, FooterCompState> {
                     url="https://www.linkedin.com/in/evgeny-lahav"
                 >
                 </AwesomeButtonSocial>
-            </div>
+            </Footer>
         );
     }
 }
