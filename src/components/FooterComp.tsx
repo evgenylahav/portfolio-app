@@ -33,7 +33,7 @@ export class FooterComp extends React.Component<{}, FooterCompState> {
                 <AwesomeButtonSocial
                     cssModule={AwesomeButtonStyles}
                     type="linkedin"
-                    url="https://il.linkedin.com/in/evgeny-lahav"
+                    url="https://www.linkedin.com/in/evgeny-lahav"
                 >
                 </AwesomeButtonSocial>
             </div>
