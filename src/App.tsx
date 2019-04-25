@@ -4,7 +4,7 @@ import './App.css';
 import { NavbarComp } from './components/NavbarComp'
 import { CarouselComp } from './components/CarouselComp'
 import { ButtonComp } from './components/ButtonComp'
-
+import { FooterComp } from './components/FooterComp'
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
       <NavbarComp/>
       <CarouselComp />
       <ButtonComp />
+      <FooterComp />
     </div>
   );
 }

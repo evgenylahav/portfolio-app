@@ -1,9 +1,9 @@
 import * as React from 'react';
 import Button from 'react-bootstrap/Button';
 
-handleClick(){
+// handleClick(){
   
-}
+// }
 
 export interface ButtonCompState {
 
@@ -21,7 +21,6 @@ export class ButtonComp extends React.Component<{}, ButtonCompState> {
             <Button 
                 variant="primary" 
                 size="lg"
-                onClick={}
             >
             Large button
             </Button>
