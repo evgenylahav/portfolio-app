@@ -29,9 +29,11 @@ export class HeaderComp extends React.Component<{}, HeaderState> {
             />
           </Navbar.Brand>
           <Navigation>
+            <Link to="/">Home</Link>
             <Link to="/resume">Resume</Link>
             <Link to="/aboutme">About Me</Link>
-            <Link to="/projects">Projects</Link>
+            <Link to="/projects">My Projects</Link>
+            <Link to="/blogs">Blogs</Link>
             <Link to="/contactme">Contact Me</Link>
           </Navigation>
           </Header>
