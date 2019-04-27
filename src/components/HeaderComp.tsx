@@ -32,8 +32,7 @@ export class HeaderComp extends React.Component<{}, HeaderState> {
             <Link to="/">Home</Link>
             <Link to="/resume">Resume</Link>
             <Link to="/aboutme">About Me</Link>
-            <Link to="/projects">My Projects</Link>
-            <Link to="/blogs">Blogs</Link>
+            <Link to="/content">Content</Link>
             <Link to="/contactme">Contact Me</Link>
           </Navigation>
           </Header>

@@ -69,3 +69,7 @@
     padding: 10px;
     /* padding-left: 40%; */
 }
+
+.content-grid{
+    display: flex;
+}
