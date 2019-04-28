@@ -6,11 +6,15 @@ import { AboutMe } from './AboutMe';
 import { ContactMe } from './ContactMe';
 import { Content } from './Content';
 
+export interface RouterProps {
+
+}
+
 export interface RouterState {
 
 }
 
-export class Router extends React.Component<{}, RouterState> {
+export class Router extends React.Component<RouterProps, RouterState> {
     constructor(props: any) {
         super(props);
         this.state = {};

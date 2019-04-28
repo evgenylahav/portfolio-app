@@ -3,14 +3,16 @@ import Navbar from 'react-bootstrap/Navbar';
 import logo from '../assets/logo_small.png';
 import { Header, Navigation } from 'react-mdl';
 import { Link } from 'react-router-dom';
-// import './HeaderComp.scss'
+
+export interface HeaderProps {
+
+}
 
 export interface HeaderState {
 
 }
 
-
-export class HeaderComp extends React.Component<{}, HeaderState> {
+export class HeaderComp extends React.Component<HeaderProps, HeaderState> {
     constructor(props: any) {
         super(props);
         this.state = {};

@@ -1,13 +1,18 @@
 import * as React from 'react';
-// import { CarouselComp } from './CarouselComp';
 import { Grid, Cell } from 'react-mdl';
 import { AwesomeButtonSocial } from 'react-awesome-button';
+
+export interface LandingPageProps {
+
+}
+
 export interface LandingPageState {
 
 }
+
 const AwesomeButtonStyles = require('react-awesome-button/src/styles/styles.scss')
 
-export class LandingPage extends React.Component<{}, LandingPageState> {
+export class LandingPage extends React.Component<LandingPageProps, LandingPageState> {
     constructor(props: any) {
         super(props);
         this.state = {};
@@ -15,7 +20,7 @@ export class LandingPage extends React.Component<{}, LandingPageState> {
 
     public render() {
         return (
-            <div style={{ width: '100%', margin: 'auto' }}>
+            <div style={{ width: '100%', margin: 'auto'}}>
                 <Grid className='landing-grid'>
                     <Cell col={12}>
                         <img

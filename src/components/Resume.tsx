@@ -1,10 +1,14 @@
 import * as React from 'react';
 
+export interface ResumeCompProps {
+
+}
+
 export interface ResumeCompState {
 
 }
 
-export class Resume extends React.Component<{}, ResumeCompState> {
+export class Resume extends React.Component<ResumeCompProps, ResumeCompState> {
     constructor(props: any) {
         super(props);
         this.state = {};

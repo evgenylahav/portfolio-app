@@ -1,12 +1,32 @@
 import * as React from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, 
-    CardText, CardActions, Button } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button } from 'react-mdl';
+
+
+const pythonImgTips = 'http://lorenabarba.com/wp-content/uploads/2014/05/keep-calm-and-code-python_BW.png';
+const pythonImgExercises = 'https://raw.githubusercontent.com/revesansparole/pkglts/master/avatar.png';
+const pythonImgResources = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMYpRq_mwG_lMcikwGpnJaRK7sNn5mu3mG27VVByeuDHVNjn-y';
+
+const jsImgTips = 'https://res.cloudinary.com/teepublic/image/private/s--Zg45bEvj--/t_Preview/b_rgb:191919,c_limit,f_jpg,h_630,q_90,w_630/v1539381322/production/designs/3309111_0.jpg';
+const jsImgExercises = 'http://3.bp.blogspot.com/-RJTx3JUnDo4/VN2Bulym9qI/AAAAAAAAa4Q/hAWWZ6yYxWo/s1600/js.png';
+const jsImgResources = 'http://cdn-avatar.pearltrees.com/b4/cc/b4cc9b6dc76bcc06f3d83656720ebde7.pearlsquare.jpg?v=2';
+
+const reactImgTips = 'https://i.pinimg.com/236x/de/b6/7e/deb67ec7bb3c68d9b34b05270b4cabd1--monkey-do-you.jpg';
+const reactImgExercises = 'https://i.imgflip.com/p5x14.jpg';
+const reactImgResources = 'https://s.cdpn.io/profiles/user/1524299/512.jpg?1507654440';
+
+const cleanCodeImgTips = 'https://ctl.s6img.com/society6/img/ThusR0bduXwAeGpktgGGWPA9Pa4/w_700/prints/~artwork/s6-original-art-uploads/society6/uploads/misc/48373ea3e1814185a2189adf1cd3ae16/~~/clean-code-dirty-mind-funny-and-hilarious-tee-design-naughty-gift-to-your-friends-and-family-prints.jpg';
+const cleanCodeImgExercises = 'https://www.wlion.com/wp-content/uploads/2017/04/CleanCode.jpg';
+const cleanCodeImgResources = 'https://avatars.io/twitter/unclebobmartin';
+
+export interface ContentProps {
+    activeTab: number
+}
 
 export interface ContentState {
     activeTab: number
 }
 
-export class Content extends React.Component<{}, ContentState> {
+export class Content extends React.Component<ContentProps, ContentState> {
     constructor(props: any) {
         super(props);
         this.state = {
@@ -16,88 +36,59 @@ export class Content extends React.Component<{}, ContentState> {
 
     toggleContents(){
         if (this.state.activeTab === 0) {
-            
             return(
+                // Tips
                 <div className='content-grid'>
-                    {this.cardGenerator("Python Tips", 
-                    "Check out python tips and know-hows",
-                    "http://www.getmdl.io/assets/demos/welcome_card.jpg")}
+                    {this.cardGenerator(pythonImgTips, 'python')}
                     
-                    {this.cardGenerator("Python Exercises", 
-                    "Practice and sharpen your python skills",
-                    "http://www.getmdl.io/assets/demos/welcome_card.jpg")}
+                    {this.cardGenerator(jsImgTips, 'javascript')}
 
-                    {this.cardGenerator("Python Resources", 
-                    "My recommended python resources - books, blogs, courses, etc...",
-                    "http://www.getmdl.io/assets/demos/welcome_card.jpg")}  
+                    {this.cardGenerator(reactImgTips, 'react')}
+
+                    {this.cardGenerator(cleanCodeImgTips, 'clean code')}  
                 </div>
             )
         } else if (this.state.activeTab === 1) {
             return(
+                // Exercises
                 <div className='content-grid'>
-                    {this.cardGenerator("JavaScript Tips", 
-                    "Check out javascript tips and know-hows",
-                    "http://www.getmdl.io/assets/demos/welcome_card.jpg")}
+                    {this.cardGenerator(pythonImgExercises, 'python')}
                     
-                    {this.cardGenerator("JavaScript Exercises", 
-                    "Practice and sharpen your javascript skills",
-                    "http://www.getmdl.io/assets/demos/welcome_card.jpg")}
+                    {this.cardGenerator(jsImgExercises, 'javascript')}
 
-                    {this.cardGenerator("JavaScript Resources", 
-                    "My recommended javascript resources - books, blogs, courses, etc...",
-                    "http://www.getmdl.io/assets/demos/welcome_card.jpg")}  
+                    {this.cardGenerator(reactImgExercises, 'react')}
+
+                    {this.cardGenerator(cleanCodeImgExercises, 'clean code')}
                 </div>
             )
         } else if (this.state.activeTab === 2) {
             return(
+                // Resources
                 <div className='content-grid'>
-                    {this.cardGenerator("React Tips", 
-                    "Check out react tips and know-hows",
-                    "http://www.getmdl.io/assets/demos/welcome_card.jpg")}
+                    {this.cardGenerator(pythonImgResources, 'python')}
                     
-                    {this.cardGenerator("React Exercises", 
-                    "Practice and sharpen your react skills",
-                    "http://www.getmdl.io/assets/demos/welcome_card.jpg")}
+                    {this.cardGenerator(jsImgResources, 'javascript')}
 
-                    {this.cardGenerator("React Resources", 
-                    "My recommended react resources - books, blogs, courses, etc...",
-                    "http://www.getmdl.io/assets/demos/welcome_card.jpg")}  
-                </div>
-            )
-        } else if (this.state.activeTab === 3) {
-            return(
-                <div className='content-grid'>
-                    {this.cardGenerator("Clean Code Tips", 
-                    "Check out clean code tips and know-hows",
-                    "http://www.getmdl.io/assets/demos/welcome_card.jpg")}
-                    
-                    {this.cardGenerator("Clean Code Exercises", 
-                    "Practice and sharpen your clean code skills",
-                    "http://www.getmdl.io/assets/demos/welcome_card.jpg")}
+                    {this.cardGenerator(reactImgResources, 'react')}
 
-                    {this.cardGenerator("Clean Code Resources", 
-                    "My recommended clean code resources - books, blogs, courses, etc...",
-                    "http://www.getmdl.io/assets/demos/welcome_card.jpg")}  
+                    {this.cardGenerator(cleanCodeImgResources, 'clean code')}
                 </div>
             )
         } 
     }
 
-    cardGenerator(cardTitle, cardText, imgLink){
+    cardGenerator(imgLink, tech){
         return (
-            <Card shadow={5} style={{minWidth: '200px', margin: 'auto'}}>
+            <Card shadow={5} style={{width: '250px', height: '320px', margin: 'auto'}}>
                 <CardTitle 
                     style={{color: '#fff', 
-                            height: '176px', 
-                            background: 'url(' + imgLink + ') center / cover'}}
+                            height: '300px', 
+                            background: 'url(' + imgLink + ') center / cover',
+                            backgroundSize: '320px 250px'}}
                 >
-                    { cardTitle }
                 </CardTitle>
-                <CardText>
-                    { cardText }
-                </CardText>
                 <CardActions border>
-                    <Button colored>Get Started</Button>
+                    <Button colored>{tech}</Button>
                 </CardActions>
             </Card>
         )
@@ -107,10 +98,9 @@ export class Content extends React.Component<{}, ContentState> {
         return (
             <div>
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-                    <Tab>Python</Tab>
-                    <Tab>JavaScript</Tab>
-                    <Tab>React</Tab>
-                    <Tab>Clean Code</Tab>
+                    <Tab>Tips</Tab>
+                    <Tab>Exercises</Tab>
+                    <Tab>Resources</Tab>
                 </Tabs>
                 <section>
                     <Grid>
