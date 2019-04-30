@@ -112,3 +112,20 @@
     width: 50%;
     margin: auto;
 }
+
+
+.resume-right-col {
+    background: #0d0b11;
+    color: white;
+    padding: 2em;
+}
+.resume-right-col hr {
+    border-top: 3px solid rgb(114, 1, 1);
+    width: 90%;
+    margin: auto;
+}
+.resume-left-col hr {
+    border-top: 3px solid rgb(9, 116, 57);
+    width: 50%;
+    margin: auto;
+}
