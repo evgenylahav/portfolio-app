@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Grid, Cell } from 'react-mdl';
 import { ResumeLine } from './ResumeLine';
 import { Skills } from './Skills';
+import im1 from "../assets/Image-1.png";
 
 export interface ResumeCompProps {
 
@@ -24,7 +25,7 @@ export class Resume extends React.Component<ResumeCompProps, ResumeCompState> {
                     <Cell className='resume-left-col' col={4}>
                         <div style={{textAlign: 'center'}}>
                             <img 
-                                src='https://yt3.ggpht.com/a-/AAuE7mDeZxRm5KFFNjFNlAWaqxQWpQUoli3vM7TFwg=s900-mo-c-c0xffffffff-rj-k-no'
+                                src={im1}
                                 alt='avatar'
                                 style={{height: '200px', width: 'auto'}}
                             />   

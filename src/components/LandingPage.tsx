@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Grid, Cell } from 'react-mdl';
 import { AwesomeButtonSocial } from 'react-awesome-button';
+import logo from "../assets/Lahav.png"
 
 export interface LandingPageProps {
 
@@ -24,7 +25,7 @@ export class LandingPage extends React.Component<LandingPageProps, LandingPageSt
                 <Grid className='landing-grid'>
                     <Cell col={12}>
                         <img
-                            src='https://yt3.ggpht.com/a-/AAuE7mDeZxRm5KFFNjFNlAWaqxQWpQUoli3vM7TFwg=s900-mo-c-c0xffffffff-rj-k-no'
+                            src={logo}
                             alt='avatar'
                             className='avatar-img'
                         />

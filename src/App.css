@@ -129,3 +129,37 @@
     width: 50%;
     margin: auto;
 }
+
+.aboutme-grid{
+    grid-template-rows: 100px 1fr;
+}
+
+.aboutme-grid h2{
+    font-family: 'Indie Flower', cursive;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+
+.aboutme-grid h3{
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+.aboutme hr {
+    border-top: 3px solid blue;
+    width: 50%;
+    margin: auto;
+}
+
+.aboutme-grid p{
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+.aboutme-bg{
+    background-image: url('./assets/apple-bg.jpg')
+}
