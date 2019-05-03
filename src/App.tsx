@@ -3,6 +3,7 @@ import * as React from 'react';
 import './App.css';
 import { HeaderComp } from './components/HeaderComp';
 import { Router } from './components/Router';
+import { MyNavbar } from './components/MyNavbar';
 import { Layout, Content } from 'react-mdl'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faPhoneSquare, faAt } from '@fortawesome/free-solid-svg-icons'
@@ -13,7 +14,8 @@ function App() {
   return (
     <div>
       <Layout>
-        <HeaderComp />
+        {/* <HeaderComp /> */}
+        <MyNavbar />
         <Content>
           <Router />
         </Content>
