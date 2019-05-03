@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button } from 'react-mdl';
-
+import './Content.scss';
 
 const pythonImgTips = 'http://lorenabarba.com/wp-content/uploads/2014/05/keep-calm-and-code-python_BW.png';
 const pythonImgExercises = 'https://raw.githubusercontent.com/revesansparole/pkglts/master/avatar.png';

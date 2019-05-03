@@ -1,6 +1,8 @@
 import React from 'react';
 import { AwesomeButtonSocial } from 'react-awesome-button';
 import { Footer, FooterSection, FooterLinkList } from 'react-mdl'
+import './Footer.scss';
+// import {Jumbotron} from 'react-bootstrap';
 
 export interface FooterCompProps {
 

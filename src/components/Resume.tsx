@@ -3,6 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import { ResumeLine } from './ResumeLine';
 import { Skills } from './Skills';
 import im1 from "../assets/Image-1.png";
+import './Resume.scss';
 
 export interface ResumeCompProps {
 

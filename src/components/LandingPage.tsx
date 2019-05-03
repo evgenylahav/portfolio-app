@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Grid, Cell } from 'react-mdl';
 import { AwesomeButtonSocial } from 'react-awesome-button';
 import logo from "../assets/Lahav.png"
+import './LandingPage.scss';
 
 export interface LandingPageProps {
 

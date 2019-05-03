@@ -3,6 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import logo from '../assets/Lahav.png';
 import { Header, Navigation } from 'react-mdl';
 import { Link } from 'react-router-dom';
+import './Header.scss';
 
 export interface HeaderProps {
 

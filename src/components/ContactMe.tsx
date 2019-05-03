@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 import im1 from "../assets/carousel_image1.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+import './ContactMe.scss';
 
 const styleListItem = {
     textAlign: 'center', paddingLeft: '100px', fontSize: '30px', fontFamily: 'Anton'

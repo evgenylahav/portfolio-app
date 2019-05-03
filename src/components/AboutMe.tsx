@@ -1,5 +1,9 @@
 import * as React from 'react';
 import { Cell, Grid } from 'react-mdl';
+import './AboutMe.scss';
+
+import background from '../assets/apple-bg.jpg';
+
 
 export interface AboutMeProps {
 
@@ -17,10 +21,13 @@ export class AboutMe extends React.Component<AboutMeProps, AboutMeState> {
 
     public render() {
         return (
-            <div className='aboutme-grid'>
-                <div>
+            <div className='aboutme-grid'
+                 >
+                <div style={{backgroundImage: `url(${background})`, backgroundSize: 'cover'}}>
                     <h3>Discover who am I as a person outside of my day job</h3>
                     <hr />
+                </div>
+                <div>
                     <h2>A few facts about myself</h2>
 
                     <p>
@@ -44,9 +51,6 @@ export class AboutMe extends React.Component<AboutMeProps, AboutMeState> {
                         Having the experience and a broad
                         </p>
                     <hr />
-                </div>
-                <div className='aboutme-bg'>
-
                 </div>
             </div>
         );
