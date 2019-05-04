@@ -1,3 +1,15 @@
+.about-header-image {
+    width: 100%;
+    margin-top: -2em;
+    margin-bottom: 2em;
+}
+  
+.about-profile-pic {
+    float: right;
+    margin: 0 50px 0 50px;
+    width: 20%;
+}
+
 .aboutme-grid{
     grid-template-rows: 1fr 1fr;
 }
@@ -7,8 +19,8 @@
     font-size: 50px;
     font-weight: bold;
     color: black;
-    text-align: center;
-    width: 75%;
+    // text-align: center;
+    // width: 75%;
 }
 
 .aboutme-grid h3{
@@ -26,9 +38,9 @@
 }
 
 .aboutme-grid p{
-    font-family: 'Indie Flower', cursive;
-    font-size: 20px;
+    // font-family: 'Indie Flower', cursive;
+    // font-size: 20px;
     color: black;
-    text-align: center;
-    width: 75%;
+    // text-align: center;
+    // width: 75%;
 }
