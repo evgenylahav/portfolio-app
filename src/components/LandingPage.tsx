@@ -1,17 +1,11 @@
 import * as React from 'react';
 import { Container, Col, Row, Jumbotron, Image } from 'react-bootstrap';
-// import { Grid, Cell } from 'react-mdl';
 import { AwesomeButtonSocial } from 'react-awesome-button';
-import im1 from '../assets/Image-1.png';
+import im1 from '../assets/me_young.jpeg';
 import './LandingPage.scss';
 
-export interface LandingPageProps {
-
-}
-
-export interface LandingPageState {
-
-}
+export interface LandingPageProps {}
+export interface LandingPageState {}
 
 const AwesomeButtonStyles = require('react-awesome-button/src/styles/styles.scss')
 
@@ -31,8 +25,8 @@ export class LandingPage extends React.Component<LandingPageProps, LandingPageSt
                 <Row className="show-grid text-center">
                     <Col xs={12} sm={12} className='person-wrapper'>
                         <Image src={im1} roundedCircle className="profile-pic" />
-                        <h3>Evgeny Lahav</h3>
-                        <p>Software engineer, practicing with Python, JavaScript and React</p>
+                        <h2 className='me'>Evgeny Lahav</h2>
+                        <h4>Software engineer, practicing with Python, JavaScript and React</h4>
                     </Col>
                 </Row>
                 <Row className="social-links">
