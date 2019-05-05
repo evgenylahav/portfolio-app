@@ -18,10 +18,10 @@ export class LandingPage extends React.Component<LandingPageProps, LandingPageSt
     public render() {
         return (
             <Container>
-                <Jumbotron>
+                {/* <Jumbotron>
                     <h2>Welcome to my page</h2>
                     <p>In this page I'll tell you about myself, and about the content that I want to share with you</p>
-                </Jumbotron>
+                </Jumbotron> */}
                 <Row className="show-grid text-center">
                     <Col xs={12} sm={12} className='person-wrapper'>
                         <Image src={im1} roundedCircle className="profile-pic" />
