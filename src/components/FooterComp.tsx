@@ -4,13 +4,8 @@ import { Footer, FooterSection, FooterLinkList } from 'react-mdl'
 import './Footer.scss';
 // import {Jumbotron} from 'react-bootstrap';
 
-export interface FooterCompProps {
-
-}
-
-export interface FooterCompState {
-
-}
+export interface FooterCompProps {}
+export interface FooterCompState {}
 
 const AwesomeButtonStyles = require('react-awesome-button/src/styles/styles.scss')
 

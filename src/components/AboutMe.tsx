@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Container, Col, Image } from 'react-bootstrap';
 import { ImageGallery } from './ImageGallery';
-// import ManipulatingSwiper from './ImageSwiper';
+import { Social } from './Social';
 
 import './AboutMe.scss';
 
@@ -26,7 +26,7 @@ export class AboutMe extends React.Component<AboutMeProps, AboutMeState> {
     public render() {
         return (
             <div className='aboutme-grid'>
-                <Image src={background} className='about-header-image' />
+                {/* <Image src={background} className='about-header-image' /> */}
                 <h3>Discover who am I as a person outside of my day job</h3>
             
                 <Container>
@@ -74,11 +74,12 @@ export class AboutMe extends React.Component<AboutMeProps, AboutMeState> {
                              for all this time - software. 
                          </p>
                          <p>
-                             Having the experience and a broad
+                             Having the experience and a broader look of the makes me a better programmer.
                          </p>
                          <h2>Check us out...</h2>
                          <ImageGallery />
                     </Col>
+                    <Social />
                 </Container>
                 
             </div>

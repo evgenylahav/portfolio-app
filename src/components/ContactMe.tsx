@@ -2,19 +2,15 @@ import * as React from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 import im1 from "../assets/carousel_image1.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Social } from './Social';
 import './ContactMe.scss';
 
 const styleListItem = {
     textAlign: 'center', paddingLeft: '100px', fontSize: '30px', fontFamily: 'Anton'
 };
 
-export interface ContactMeProps {
-
-}
-
-export interface ContactMeState {
-
-}
+export interface ContactMeProps {}
+export interface ContactMeState {}
 
 export class ContactMe extends React.Component<ContactMeProps, ContactMeState> {
     constructor(props: any) {
@@ -53,6 +49,7 @@ export class ContactMe extends React.Component<ContactMeProps, ContactMeState> {
                         </div>
                     </Cell>
                 </Grid>
+                <Social />
             </div>
         );
     }

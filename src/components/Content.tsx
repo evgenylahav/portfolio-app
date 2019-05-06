@@ -1,6 +1,7 @@
 import * as React from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button } from 'react-mdl';
+import { Nav, Row, Tabs, Tab, Button, Container, Col, Image, Card } from 'react-bootstrap';
 import './Content.scss';
+import { Social } from './Social';
 
 const pythonImgTips = 'http://lorenabarba.com/wp-content/uploads/2014/05/keep-calm-and-code-python_BW.png';
 const pythonImgExercises = 'https://raw.githubusercontent.com/revesansparole/pkglts/master/avatar.png';
@@ -34,8 +35,8 @@ export class Content extends React.Component<ContentProps, ContentState> {
         };
     }
 
-    toggleContents(){
-        if (this.state.activeTab === 0) {
+    toggleContents(value: number){
+        if (value === 0) {
             return(
                 // Tips
                 <div className='content-grid'>
@@ -48,7 +49,7 @@ export class Content extends React.Component<ContentProps, ContentState> {
                     {this.cardGenerator(cleanCodeImgTips, 'clean code')}  
                 </div>
             )
-        } else if (this.state.activeTab === 1) {
+        } else if (value === 1) {
             return(
                 // Exercises
                 <div className='content-grid'>
@@ -61,7 +62,7 @@ export class Content extends React.Component<ContentProps, ContentState> {
                     {this.cardGenerator(cleanCodeImgExercises, 'clean code')}
                 </div>
             )
-        } else if (this.state.activeTab === 2) {
+        } else if (value === 2) {
             return(
                 // Resources
                 <div className='content-grid'>
@@ -79,37 +80,51 @@ export class Content extends React.Component<ContentProps, ContentState> {
 
     cardGenerator(imgLink, tech){
         return (
-            <Card shadow={5} style={{width: '250px', height: '320px', margin: 'auto'}}>
-                <CardTitle 
-                    style={{color: '#fff', 
-                            height: '300px', 
-                            background: 'url(' + imgLink + ') center / cover',
-                            backgroundSize: '320px 250px'}}
-                >
-                </CardTitle>
-                <CardActions border>
-                    <Button colored>{tech}</Button>
-                </CardActions>
+            <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" src={ imgLink } />
+                <Card.Body>
+                    <Button variant="primary">{ tech }</Button>
+                </Card.Body>
             </Card>
         )
     }
 
     public render() {
         return (
-            <div>
-                <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-                    <Tab>Tips</Tab>
-                    <Tab>Exercises</Tab>
-                    <Tab>Resources</Tab>
-                </Tabs>
-                <section>
-                    <Grid>
-                        <Cell col={12}>
-                            <div className='content'> { this.toggleContents() } </div> 
-                        </Cell>
-                    </Grid>
-                </section>
-            </div>    
+            <Container>
+                <Tab.Container id="left-tabs-example" defaultActiveKey="tips">
+                    <Row>
+                        <Col sm={3}>
+                        <Nav variant="pills" className="flex-column">
+                            <Nav.Item>
+                            <Nav.Link eventKey="tips">Tips</Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                            <Nav.Link eventKey="exercises">Exercises</Nav.Link>
+                            </Nav.Item>
+                            <Nav.Item>
+                            <Nav.Link eventKey="resources">Resources</Nav.Link>
+                            </Nav.Item>
+                        </Nav>
+                        </Col>
+                        <Col sm={9}>
+                        <Tab.Content>
+                            <Tab.Pane eventKey="tips">
+                                { this.toggleContents(0) }
+                            </Tab.Pane>
+                            <Tab.Pane eventKey="resources">
+                                { this.toggleContents(1) }
+                            </Tab.Pane>
+                            <Tab.Pane eventKey="exercises">
+                                { this.toggleContents(2) }
+                            </Tab.Pane>
+                        </Tab.Content>
+                        </Col>
+                    </Row>
+                </Tab.Container>;
+                <Social />
+            </Container>
+
         );
     }
 }

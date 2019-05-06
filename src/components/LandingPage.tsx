@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Container, Col, Row, Jumbotron, Image } from 'react-bootstrap';
-import { AwesomeButtonSocial } from 'react-awesome-button';
+import { Social } from './Social';
 import im1 from '../assets/me_young.jpeg';
 import './LandingPage.scss';
 
@@ -29,36 +29,7 @@ export class LandingPage extends React.Component<LandingPageProps, LandingPageSt
                         <h4>Software engineer, practicing with Python, JavaScript and React</h4>
                     </Col>
                 </Row>
-                <Row className="social-links">
-                    <AwesomeButtonSocial
-                        cssModule={AwesomeButtonStyles}
-                        type="twitter"
-                        href="https://twitter.com/kodon23"
-                        target="_blank"
-                    >
-                    </AwesomeButtonSocial>
-                    <AwesomeButtonSocial
-                        cssModule={AwesomeButtonStyles}
-                        type="github"
-                        href="https://github.com/evgenylahav"
-                        target="_blank"
-                    >
-                    </AwesomeButtonSocial>
-                    <AwesomeButtonSocial
-                        cssModule={AwesomeButtonStyles}
-                        type="linkedin"
-                        href="https://www.linkedin.com/in/evgeny-lahav"
-                        target="_blank"
-                    >
-                    </AwesomeButtonSocial>
-                    <AwesomeButtonSocial
-                        cssModule={AwesomeButtonStyles}
-                        type="youtube"
-                        href="https://www.linkedin.com/in/evgeny-lahav"
-                        target="_blank"
-                    >
-                    </AwesomeButtonSocial>
-                </Row>
+                <Social />
             </Container>
         );
     }

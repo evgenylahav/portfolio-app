@@ -4,16 +4,12 @@ import { Grid, Cell } from 'react-mdl';
 import { ResumeLine } from './ResumeLine';
 import { Skills } from './Skills';
 import board from '../assets/blackboard-chalk.jpg';
+import { Social } from './Social';
 import im1 from "../assets/Image-1.png";
 import './Resume.scss';
 
-export interface ResumeCompProps {
-
-}
-
-export interface ResumeCompState {
-
-}
+export interface ResumeCompProps {}
+export interface ResumeCompState {}
 
 export class Resume extends React.Component<ResumeCompProps, ResumeCompState> {
     constructor(props: any) {
@@ -24,7 +20,7 @@ export class Resume extends React.Component<ResumeCompProps, ResumeCompState> {
     public render() {
         return (
             <div>
-                <Image src={board} className="resume-header-image" />
+                {/* <Image src={board} className="resume-header-image" /> */}
                 <Container className='resume-container'>
                     <h3>My Resume</h3>
                     <Row>
@@ -92,7 +88,7 @@ export class Resume extends React.Component<ResumeCompProps, ResumeCompState> {
                         </Col>
 
                     </Row>
-
+                    <Social />
                 </Container>
             </div>
         );
