@@ -4,8 +4,8 @@ import { AwesomeButtonSocial } from 'react-awesome-button';
 import im1 from '../assets/me_young.jpeg';
 import './Social.scss';
 
-export interface SocialProps {}
-export interface SocialState {}
+export interface SocialProps { }
+export interface SocialState { }
 
 const AwesomeButtonStyles = require('react-awesome-button/src/styles/styles.scss')
 
@@ -17,7 +17,7 @@ export class Social extends React.Component<SocialProps, SocialState> {
 
     public render() {
         return (
-            <Container>
+            <div>
                 <Row className="social-links">
                     <AwesomeButtonSocial
                         cssModule={AwesomeButtonStyles}
@@ -48,7 +48,7 @@ export class Social extends React.Component<SocialProps, SocialState> {
                     >
                     </AwesomeButtonSocial>
                 </Row>
-            </Container>
+            </div>
         );
     }
 }

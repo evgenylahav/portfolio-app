@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { Nav, Row, Tabs, Tab, Button, Container, Col, Image, Card } from 'react-bootstrap';
 import './Content.scss';
-import { Social } from './Social';
 
 const pythonImgTips = 'http://lorenabarba.com/wp-content/uploads/2014/05/keep-calm-and-code-python_BW.png';
 const pythonImgExercises = 'https://raw.githubusercontent.com/revesansparole/pkglts/master/avatar.png';
@@ -20,7 +19,7 @@ const cleanCodeImgExercises = 'https://www.wlion.com/wp-content/uploads/2017/04/
 const cleanCodeImgResources = 'https://avatars.io/twitter/unclebobmartin';
 
 export interface ContentProps {
-    activeTab: number
+
 }
 
 export interface ContentState {
@@ -122,9 +121,7 @@ export class Content extends React.Component<ContentProps, ContentState> {
                         </Col>
                     </Row>
                 </Tab.Container>;
-                <Social />
-            </Container>
-
+             </Container>
         );
     }
 }

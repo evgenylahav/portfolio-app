@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import './App.css';
-import { HeaderComp } from './components/HeaderComp';
+import { FooterComp } from './components/FooterComp';
 import { Router } from './components/Router';
 import { MyNavbar } from './components/MyNavbar';
 import { Jumbotron } from './components/Jumbotron';
@@ -17,10 +17,11 @@ function App() {
     <div>
       <Layout>
         {/* <HeaderComp /> */}
-        <NavigationBar />
-        <Jumbotron />
         <Content>
+          <NavigationBar />
+          <Jumbotron />
           <Router />
+          <FooterComp />
         </Content>
       </Layout>
     </div>

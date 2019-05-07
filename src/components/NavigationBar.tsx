@@ -10,49 +10,39 @@ const Styles = styled.div`
     background-color: #222;
   }
   a, .navbar-brand, .navbar-nav .nav-link {
-    color: #bbb;
+    color: #222222;
     &:hover {
-      color: white;
+      color: #bbb;
     }
   }
 `;
 
 export const NavigationBar = () => (
   <Styles>
-    <Navbar expand="lg">
-      <Navbar.Brand href="/">
-        <Image src={logo} className='brand-pic' style={{width: '16%'}}/>
-      </Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="ml-auto">
-          <Nav.Item>
-            <Nav.Link>
-              <Link to="/">Home</Link>
-            </Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link>
-              <Link to="/resume">Resume</Link>
-            </Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link>
-              <Link to="/aboutme">About Me</Link>
-            </Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link>
-              <Link to="/content">Content</Link>
-            </Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link>
-              <Link to="/contactme">Contact Me</Link>
-            </Nav.Link>
-          </Nav.Item>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
+      <Navbar bg="light" expand="lg">
+            <Navbar.Brand href="/">
+                <Image src={logo} className='brand-pic' style={{maxWidth: '90px'}}/>
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="mr-auto">
+                    <Nav.Link>
+                        <Link to="/">Home</Link>
+                    </Nav.Link>
+                    <Nav.Link>
+                        <Link to="/resume">Resume</Link>
+                    </Nav.Link>
+                    <Nav.Link>
+                        <Link to="/aboutme">About Me</Link>
+                    </Nav.Link>
+                    <Nav.Link>
+                        <Link to="/content">Content</Link>
+                    </Nav.Link>
+                    <Nav.Link>
+                        <Link to="/contactme">Contact Me</Link>
+                    </Nav.Link>
+                </Nav>
+            </Navbar.Collapse>
+      </Navbar>
   </Styles >
 )

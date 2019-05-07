@@ -1,21 +1,13 @@
 import * as React from 'react';
 import { Container, Col, Image } from 'react-bootstrap';
 import { ImageGallery } from './ImageGallery';
-import { Social } from './Social';
-
 import './AboutMe.scss';
-
 import background from '../assets/apple-bg.jpg';
 import profilePic from '../assets/Image-1.png';
 import programmingPic from '../assets/programming.jpg';
 
-export interface AboutMeProps {
-
-}
-
-export interface AboutMeState {
-
-}
+export interface AboutMeProps {}
+export interface AboutMeState {}
 
 export class AboutMe extends React.Component<AboutMeProps, AboutMeState> {
     constructor(props: any) {
@@ -79,9 +71,7 @@ export class AboutMe extends React.Component<AboutMeProps, AboutMeState> {
                          <h2>Check us out...</h2>
                          <ImageGallery />
                     </Col>
-                    <Social />
-                </Container>
-                
+                </Container>               
             </div>
         );
     }

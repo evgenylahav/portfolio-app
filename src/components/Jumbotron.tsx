@@ -11,6 +11,7 @@ const Styles = styled.div`
     height: 200px;
     position: relative;
     z-index: -2;
+    min-height: 300px;
   }
   .overlay {
     background-color: #000;
@@ -30,7 +31,6 @@ export const Jumbotron = () => (
       <div className="overlay"></div>
       <Container>
         <h1>Welcome to my page</h1>
-        <p>Check out my content, resume, interests and personal life and contact me for anything decent</p>
       </Container>
     </Jumbo>
   </Styles>

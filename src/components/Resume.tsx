@@ -1,10 +1,8 @@
 import * as React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
-import { Grid, Cell } from 'react-mdl';
 import { ResumeLine } from './ResumeLine';
 import { Skills } from './Skills';
 import board from '../assets/blackboard-chalk.jpg';
-import { Social } from './Social';
 import im1 from "../assets/Image-1.png";
 import './Resume.scss';
 
@@ -88,20 +86,9 @@ export class Resume extends React.Component<ResumeCompProps, ResumeCompState> {
                         </Col>
 
                     </Row>
-                    <Social />
+                    {/* <Social /> */}
                 </Container>
             </div>
         );
     }
 }
-                    /* <Cell className='resume-left-col' col={4}>
-                        
-                    </Cell>
-                    <Cell className='resume-right-col'  col={8}>
-                        
-                    </Cell>
-                </Grid> */
-            // </div>
-    //     );
-    // }
-// }
