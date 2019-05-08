@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Nav, Row, Tabs, Tab, Button, Container, Col, Image, Card } from 'react-bootstrap';
+import { Nav, Row, Tab, Button, Container, Col, Card } from 'react-bootstrap';
 import './Content.scss';
 
 const pythonImgTips = 'http://lorenabarba.com/wp-content/uploads/2014/05/keep-calm-and-code-python_BW.png';

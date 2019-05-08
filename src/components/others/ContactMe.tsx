@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { List, ListItem, ListItemContent } from 'react-mdl';
 import { Container, Col } from 'react-bootstrap';
-import im1 from "../assets/carousel_image1.jpg";
+import im1 from "../../assets/carousel_image1.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './ContactMe.scss';
 

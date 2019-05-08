@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Nav, Navbar, Image } from 'react-bootstrap';
 import styled from 'styled-components';
-import logo from "../assets/Lahav_1.png"
+import logo from "../../assets/Lahav_1.png"
 
 
 const Styles = styled.div`
@@ -38,9 +38,9 @@ export const NavigationBar = () => (
                     <Nav.Link>
                         <Link to="/content">Content</Link>
                     </Nav.Link>
-                    <Nav.Link>
+                    {/* <Nav.Link>
                         <Link to="/contactme">Contact Me</Link>
-                    </Nav.Link>
+                    </Nav.Link> */}
                 </Nav>
             </Navbar.Collapse>
       </Navbar>

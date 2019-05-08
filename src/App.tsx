@@ -1,11 +1,10 @@
 import * as React from 'react';
 
 import './App.css';
-import { FooterComp } from './components/FooterComp';
+import { FooterComp } from './components/common/FooterComp';
 import { Router } from './components/Router';
-import { MyNavbar } from './components/MyNavbar';
-import { Jumbotron } from './components/Jumbotron';
-import { NavigationBar } from './components/NavigationBar';
+import { Jumbotron } from './components/common/Jumbotron';
+import { NavigationBar } from './components/common/NavigationBar';
 import { Layout, Content } from 'react-mdl'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faPhoneSquare, faAt } from '@fortawesome/free-solid-svg-icons'
@@ -16,7 +15,6 @@ function App() {
   return (
     <div>
       <Layout>
-        {/* <HeaderComp /> */}
         <Content>
           <NavigationBar />
           <Jumbotron />

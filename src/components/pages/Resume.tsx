@@ -1,9 +1,8 @@
 import * as React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
-import { ResumeLine } from './ResumeLine';
-import { Skills } from './Skills';
-import board from '../assets/blackboard-chalk.jpg';
-import im1 from "../assets/Image-1.png";
+import { ResumeLine } from '../common/ResumeLine';
+import { Skills } from '../common/Skills';
+import im1 from "../../assets/Image-1.png";
 import './Resume.scss';
 
 export interface ResumeCompProps {}
@@ -18,14 +17,12 @@ export class Resume extends React.Component<ResumeCompProps, ResumeCompState> {
     public render() {
         return (
             <div>
-                {/* <Image src={board} className="resume-header-image" /> */}
                 <Container className='resume-container'>
                     <h3>My Resume</h3>
                     <Row>
                         <Col xs={12} sm={4}>
                             <div style={{textAlign: 'center'}}>
                                 <Image src={im1} roundedCircle className="resume-profile-pic" />
-
                             </div>
                             <h2 style={{textAlign: 'center'}}>Evgeny Lahav</h2>
                             <h4 style={{color: 'grey', textAlign: 'center'}}>Software Engineer</h4>                 
@@ -45,22 +42,32 @@ export class Resume extends React.Component<ResumeCompProps, ResumeCompState> {
                         <Col xs={12} sm={7}>
                             <h2>Experience</h2>
                             <ResumeLine 
-                                startYear='2013' 
+                                startYear='2016' 
                                 endYear='current' 
                                 placeName='Applied Materials'
-                                description='Software engineer: ...'
+                                position='Senior Software engineer'
+                                description={['Senior Software engineer: ...']}
+                            />
+                            <ResumeLine 
+                                startYear='2013' 
+                                endYear='2016' 
+                                placeName='Applied Materials'
+                                position='Software engineer'
+                                description={['Software engineer: ...']}
                             />
                             <ResumeLine 
                                 startYear='2007' 
                                 endYear='2013' 
                                 placeName='Applied Materials'
-                                description='System engineer: ...'
+                                position='System engineer'
+                                description={['System engineer: ...']}
                             />
                             <ResumeLine 
                                 startYear='2006' 
                                 endYear='2007' 
                                 placeName='Applied Materials'
-                                description='Software QA engineer: ...'
+                                position='Software QA engineer'
+                                description={['Execution of manual SW qualification', 'Leading a team of 5 testers']}
                             />
                             <hr/>
                             <h2>Education</h2>
@@ -68,13 +75,15 @@ export class Resume extends React.Component<ResumeCompProps, ResumeCompState> {
                                 startYear='2014' 
                                 endYear='2018' 
                                 placeName='Ben-Gurion University'
-                                description='M.Sc in Electro-optical engineering. Grades average of 90. Thesis subject...'
+                                position='M.Sc in Electro-optical engineering'
+                                description={['Grades average of 90', 'Thesis subject...']}
                             />
                             <ResumeLine 
                                 startYear='2001' 
                                 endYear='2005' 
                                 placeName='Ben-Gurion University'
-                                description='B.Sc in Bio-Medical Engineering. Grades average of 85.'
+                                position='B.Sc in Bio-Medical Engineering'
+                                description={['Grades average of 85']}
                             />
                             <hr/>
                             <h2>Skills</h2>
@@ -84,9 +93,7 @@ export class Resume extends React.Component<ResumeCompProps, ResumeCompState> {
                             <Skills skill='Scientific Programming' skillLevel={80}/>
                             <Skills skill='Clean Code' skillLevel={60}/>
                         </Col>
-
                     </Row>
-                    {/* <Social /> */}
                 </Container>
             </div>
         );

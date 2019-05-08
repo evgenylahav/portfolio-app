@@ -1,29 +1,18 @@
-import React, { Component } from 'react';
-// import Swiper from 'react-id-swiper';
+import * as React from 'react';
 import Swiper from 'react-id-swiper';
-
 import { Image } from 'react-bootstrap';
-
-import im1 from '../assets/belle.jpeg';
-import im2 from '../assets/family.jpeg';
-import im3 from '../assets/kodon_solo.jpeg';
-import im4 from '../assets/romi_an_belle.jpeg';
-import im5 from '../assets/romi_bw_2.jpeg';
-import im6 from '../assets/romi_bw_3.jpeg';
-import im7 from '../assets/romi_bw.jpeg';
-import im8 from '../assets/romi_kodon.jpeg';
-import im9 from '../assets/romi_with_model.jpeg';
-import im10 from '../assets/romi.jpeg';
+import im1 from '../../assets/belle.jpeg';
+import im2 from '../../assets/family.jpeg';
+import im3 from '../../assets/kodon_solo.jpeg';
+import im7 from '../../assets/romi_bw.jpeg';
+import im8 from '../../assets/romi_kodon.jpeg';
+import im9 from '../../assets/romi_with_model.jpeg';
+import im10 from '../../assets/romi.jpeg';
 
 import './ImageSwiper.scss';
 
-export interface ImageGalleryProps {
-
-}
-
-export interface ImageGalleryState {
-
-}
+export interface ImageGalleryProps {}
+export interface ImageGalleryState {}
 
 export class ImageGallery extends React.Component<ImageGalleryProps, ImageGalleryState> {
   constructor(props) {

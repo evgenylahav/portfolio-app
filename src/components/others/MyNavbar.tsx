@@ -15,7 +15,7 @@ export class MyNavbar extends Component {
             <Nav.Link href="/resume">Resume</Nav.Link>
             <Nav.Link href="/aboutme">About Me</Nav.Link>
             <Nav.Link href="/content">Content</Nav.Link>
-            <Nav.Link href="/contactme">Contact Me</Nav.Link>
+            {/* <Nav.Link href="/contactme">Contact Me</Nav.Link> */}
             </Nav>
          </Navbar>
     )

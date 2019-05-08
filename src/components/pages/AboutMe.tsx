@@ -1,10 +1,9 @@
 import * as React from 'react';
 import { Container, Col, Image } from 'react-bootstrap';
-import { ImageGallery } from './ImageGallery';
+import { ImageGallery } from '../common/ImageGallery';
 import './AboutMe.scss';
-import background from '../assets/apple-bg.jpg';
-import profilePic from '../assets/Image-1.png';
-import programmingPic from '../assets/programming.jpg';
+import profilePic from '../../assets/Image-1.png';
+import programmingPic from '../../assets/programming.jpg';
 
 export interface AboutMeProps {}
 export interface AboutMeState {}

@@ -6,11 +6,10 @@ export interface ResumeLineProps {
     startYear: string;
     endYear: string;
     placeName: string;
-    description: string;
+    position: string;
+    description: string[];
 }
-export interface ResumeLineState {
-
-}
+export interface ResumeLineState {}
 
 export class ResumeLine extends React.Component<ResumeLineProps, ResumeLineState> {
     render() {
@@ -21,7 +20,9 @@ export class ResumeLine extends React.Component<ResumeLineProps, ResumeLineState
                 </Cell>
                 <Cell col={8}>
                     <h4 style={{marginTop: '0px'}}>{this.props.placeName}</h4>
-                    <p>{this.props.description}</p>
+                    <h6>{ this.props.position }</h6>
+                    <ul> {this.props.description.map((item) => <li>{ item }</li>)} </ul>
+                    {/* <p>{ this.props.description }</p> */}
                 
                 </Cell>
             </Grid>

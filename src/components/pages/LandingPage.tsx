@@ -1,13 +1,10 @@
 import * as React from 'react';
-import { Container, Col, Row, Jumbotron, Image } from 'react-bootstrap';
-// import { Social } from './Social';
-import im1 from '../assets/me_young.jpeg';
+import { Container, Col, Row, Image } from 'react-bootstrap';
+import im1 from '../../assets/me_young.jpeg';
 import './LandingPage.scss';
 
 export interface LandingPageProps {}
 export interface LandingPageState {}
-
-const AwesomeButtonStyles = require('react-awesome-button/src/styles/styles.scss')
 
 export class LandingPage extends React.Component<LandingPageProps, LandingPageState> {
     constructor(props: any) {

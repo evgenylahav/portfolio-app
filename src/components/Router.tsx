@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { LandingPage } from './LandingPage';
-import { Resume } from './Resume';
-import { AboutMe } from './AboutMe';
-import { ContactMe } from './ContactMe';
-import { Content } from './Content';
+import { LandingPage } from './pages/LandingPage';
+import { Resume } from './pages/Resume';
+import { AboutMe } from './pages/AboutMe';
+import { ContactMe } from './others/ContactMe';
+import { Content } from './pages/Content';
 
 export interface RouterProps {
 

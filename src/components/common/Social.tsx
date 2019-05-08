@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { Container, Col, Row, Jumbotron, Image } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
 import { AwesomeButtonSocial } from 'react-awesome-button';
-import im1 from '../assets/me_young.jpeg';
+// import im1 from '../assets/me_young.jpeg';
 import './Social.scss';
 
 export interface SocialProps { }

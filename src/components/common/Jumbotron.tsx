@@ -1,7 +1,7 @@
 import React from 'react';
 import { Jumbotron as Jumbo, Container } from 'react-bootstrap';
 import styled from 'styled-components';
-import bgImage from '../assets/jumbo_bg.jpg';
+import bgImage from '../../assets/jumbo_bg.jpg';
 
 const Styles = styled.div`
   .jumbo {
