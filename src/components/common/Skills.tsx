@@ -22,7 +22,7 @@ export class Skills extends React.Component<SkillsProps, SkillsState> {
                     <div>
                         <ProgressBar 
                             progress={this.props.skillLevel}
-                            style={{color: 'green'}}
+                            style={{color: 'green', marginTop: '10px'}}
                         />
                     </div>
                 </Cell>

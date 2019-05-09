@@ -3,6 +3,8 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 import { ResumeLine } from '../common/ResumeLine';
 import { Skills } from '../common/Skills';
 import im1 from "../../assets/Image-1.png";
+import bgu from '../../assets/bgu.png';
+import amat from '../../assets/amat.jpg'
 import './Resume.scss';
 
 export interface ResumeCompProps {}
@@ -36,6 +38,13 @@ export class Resume extends React.Component<ResumeCompProps, ResumeCompState> {
                             <h5>website</h5>
                             <p>...</p>
                             <hr/>
+                            <h2>Skills</h2>
+                            <Skills skill='Python' skillLevel={70}/>
+                            <Skills skill='JavaScript' skillLevel={55}/>
+                            <Skills skill='React' skillLevel={65}/>
+                            <Skills skill='Scientific Programming' skillLevel={85}/>
+                            <Skills skill='SW Design and Architecture' skillLevel={60}/>
+                            <Skills skill='Clean Code' skillLevel={80}/>
                         </Col>
                         <Col sm={1} className='verticalLine' />
                         
@@ -45,27 +54,43 @@ export class Resume extends React.Component<ResumeCompProps, ResumeCompState> {
                                 startYear='2016' 
                                 endYear='current' 
                                 placeName='Applied Materials'
+                                img={amat}
                                 position='Senior Software engineer'
-                                description={['Senior Software engineer: ...']}
+                                description={[`Senior Software engineer in the system SW group. The group is responsible for providing quick 
+                                               and quality solutions to support the calibration process of the tools.`,
+                                              `My responsibility was leading the transformation of the group technology from development
+                                               in scientific programming languages, to modern full-stack development with front-end in React js and
+                                               back-end in Java and Python`,
+                                              'Leading training and educational activities for the group by writing a weekly blog, preparing workshops and trainings of different sorts',
+                                              `Documentation and implementation of the SW development concepts as defined by the SW architecture group:
+                                               CI pipeline, Git components, Modular project structures, etc...`]}
                             />
                             <ResumeLine 
                                 startYear='2013' 
                                 endYear='2016' 
                                 placeName='Applied Materials'
+                                img={amat}
                                 position='Software engineer'
-                                description={['Software engineer: ...']}
+                                description={['Software engineer in the apps and protptypes team',
+                                              'Responsible for developing applicationsand calibrations for the Algorithms, System and Applications groups',
+                                              'The development was done with scientific programming tools and concepts - mainly with Python and Matlab']}
                             />
                             <ResumeLine 
                                 startYear='2007' 
                                 endYear='2013' 
                                 placeName='Applied Materials'
+                                img={amat}
                                 position='System engineer'
-                                description={['System engineer: ...']}
+                                description={['Responsible for the development side of a highly sophisticated multi-disciplinary tool',
+                                               'Defining and executing C&Fs and feasibility tests',
+                                               'Defining SW requirements specifications',
+                                               'Developing analytic tools for data analysis and tool calibration']}
                             />
                             <ResumeLine 
                                 startYear='2006' 
                                 endYear='2007' 
                                 placeName='Applied Materials'
+                                img={amat}
                                 position='Software QA engineer'
                                 description={['Execution of manual SW qualification', 'Leading a team of 5 testers']}
                             />
@@ -76,22 +101,20 @@ export class Resume extends React.Component<ResumeCompProps, ResumeCompState> {
                                 endYear='2018' 
                                 placeName='Ben-Gurion University'
                                 position='M.Sc in Electro-optical engineering'
-                                description={['Grades average of 90', 'Thesis subject...']}
+                                img={bgu}
+                                description={['Grades average of 90', 'Specialization - optical computing',
+                                              `Thesis subject - new optical encryption system based on encryption of information of the Fourier magnitude
+                                               creating a non-linear and safe encryption system, which is simple for implementation and hard for hacking`]}
                             />
                             <ResumeLine 
                                 startYear='2001' 
                                 endYear='2005' 
                                 placeName='Ben-Gurion University'
                                 position='B.Sc in Bio-Medical Engineering'
-                                description={['Grades average of 85']}
+                                img={bgu}
+                                description={['Grades average of 85', 'Specialization - electronics and image processing']}
                             />
                             <hr/>
-                            <h2>Skills</h2>
-                            <Skills skill='Python' skillLevel={70}/>
-                            <Skills skill='JavaScript' skillLevel={50}/>
-                            <Skills skill='React' skillLevel={40}/>
-                            <Skills skill='Scientific Programming' skillLevel={80}/>
-                            <Skills skill='Clean Code' skillLevel={60}/>
                         </Col>
                     </Row>
                 </Container>

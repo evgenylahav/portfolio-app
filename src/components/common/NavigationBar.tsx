@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Nav, Navbar, Image } from 'react-bootstrap';
 import styled from 'styled-components';
 import logo from "../../assets/Lahav_1.png"
+import { Social } from './Social';
 
 
 const Styles = styled.div`
@@ -14,8 +15,7 @@ const Styles = styled.div`
     &:hover {
       color: #bbb;
     }
-  }
-`;
+  }`;
 
 export const NavigationBar = () => (
   <Styles>
@@ -38,9 +38,7 @@ export const NavigationBar = () => (
                     <Nav.Link>
                         <Link to="/content">Content</Link>
                     </Nav.Link>
-                    {/* <Nav.Link>
-                        <Link to="/contactme">Contact Me</Link>
-                    </Nav.Link> */}
+                    <Social />
                 </Nav>
             </Navbar.Collapse>
       </Navbar>
