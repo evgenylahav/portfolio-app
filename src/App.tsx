@@ -6,9 +6,10 @@ import { Jumbotron } from './components/common/Jumbotron';
 import { NavigationBar } from './components/common/NavigationBar';
 import { Layout, Content } from 'react-mdl';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faPhoneSquare, faAt } from '@fortawesome/free-solid-svg-icons'
+import { faVenus, faUsers, faPlaneDeparture, faChild,
+         faBasketballBall, faHamburger, faCoffee, faTv, faDog } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faPhoneSquare, faAt)
+library.add(faVenus, faUsers, faPlaneDeparture, faBasketballBall, faHamburger, faCoffee, faTv, faChild, faDog);
 
 function App() {
   return (

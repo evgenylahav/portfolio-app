@@ -36,7 +36,7 @@ export const NavigationBar = () => (
                         <Link to="/aboutme">About Me</Link>
                     </Nav.Link>
                     <Nav.Link>
-                        <Link to="/content">Content</Link>
+                        <Link to="/blog">Blog</Link>
                     </Nav.Link>
                     <Social />
                 </Nav>

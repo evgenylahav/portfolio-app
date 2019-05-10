@@ -5,6 +5,7 @@ import { Resume } from './pages/Resume';
 import { AboutMe } from './pages/AboutMe';
 import { ContactMe } from './others/ContactMe';
 import { Content } from './pages/Content';
+import { Blog } from './pages/Blog';
 
 export interface RouterProps {
 
@@ -27,6 +28,7 @@ export class Router extends React.Component<RouterProps, RouterState> {
                 <Route path="/resume" component={Resume}/>
                 <Route path="/aboutme" component={AboutMe}/>
                 <Route path="/content" component={Content}/>
+                <Route path="/blog" component={Blog}/>
                 <Route path="/contactme" component={ContactMe}/>
             </Switch>
             

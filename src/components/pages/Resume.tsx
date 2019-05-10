@@ -45,6 +45,13 @@ export class Resume extends React.Component<ResumeCompProps, ResumeCompState> {
                             <Skills skill='Scientific Programming' skillLevel={85}/>
                             <Skills skill='SW Design and Architecture' skillLevel={60}/>
                             <Skills skill='Clean Code' skillLevel={80}/>
+                            <hr/>
+                            <h2>Projects</h2>
+                            <ul>
+                                <li><a href='https://exercism.io/' target="_blank">Excersicm</a></li>
+                                <li><a href='https://www.100daysofcode.com/' target="_blank">100 Days Of Code</a></li>
+                            </ul>
+
                         </Col>
                         <Col sm={1} className='verticalLine' />
                         
