@@ -3,9 +3,10 @@ import { Container, Col, Image } from 'react-bootstrap';
 import { ImageGallery } from '../common/ImageGallery';
 import './AboutMe.scss';
 import profilePic from '../../assets/Image-1.png';
+import family from '../../assets/family.jpeg';
 import programmingPic from '../../assets/programming.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import family from '../../assets/family.jpeg';
+
 
 export interface AboutMeProps {}
 export interface AboutMeState {}
