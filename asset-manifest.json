@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/github.io/evgenylahav/static/css/main.874e1957.chunk.css",
+    "main.js": "/github.io/evgenylahav/static/js/main.251bbcc1.chunk.js",
+    "main.js.map": "/github.io/evgenylahav/static/js/main.251bbcc1.chunk.js.map",
+    "runtime~main.js": "/github.io/evgenylahav/static/js/runtime~main.9d6310ab.js",
+    "runtime~main.js.map": "/github.io/evgenylahav/static/js/runtime~main.9d6310ab.js.map",
+    "static/css/2.a0a29d65.chunk.css": "/github.io/evgenylahav/static/css/2.a0a29d65.chunk.css",
+    "static/js/2.58b85909.chunk.js": "/github.io/evgenylahav/static/js/2.58b85909.chunk.js",
+    "static/js/2.58b85909.chunk.js.map": "/github.io/evgenylahav/static/js/2.58b85909.chunk.js.map",
+    "index.html": "/github.io/evgenylahav/index.html",
+    "precache-manifest.192261f8b577fb596bf61a3282ebe2b5.js": "/github.io/evgenylahav/precache-manifest.192261f8b577fb596bf61a3282ebe2b5.js",
+    "service-worker.js": "/github.io/evgenylahav/service-worker.js",
+    "static/css/2.a0a29d65.chunk.css.map": "/github.io/evgenylahav/static/css/2.a0a29d65.chunk.css.map",
+    "static/css/main.874e1957.chunk.css.map": "/github.io/evgenylahav/static/css/main.874e1957.chunk.css.map",
+    "static/media/Image-1.png": "/github.io/evgenylahav/static/media/Image-1.4e3999c6.png",
+    "static/media/Lahav_1.png": "/github.io/evgenylahav/static/media/Lahav_1.4eea514b.png",
+    "static/media/amat.jpg": "/github.io/evgenylahav/static/media/amat.3629c478.jpg",
+    "static/media/belle.jpeg": "/github.io/evgenylahav/static/media/belle.3b97e66c.jpeg",
+    "static/media/carousel_image1.jpg": "/github.io/evgenylahav/static/media/carousel_image1.6a7b036b.jpg",
+    "static/media/family.jpeg": "/github.io/evgenylahav/static/media/family.39330bf8.jpeg",
+    "static/media/jumbo_bg.jpg": "/github.io/evgenylahav/static/media/jumbo_bg.57d876e1.jpg",
+    "static/media/kodon_solo.jpeg": "/github.io/evgenylahav/static/media/kodon_solo.fcbd5ec5.jpeg",
+    "static/media/me_young.jpeg": "/github.io/evgenylahav/static/media/me_young.ec5cc32f.jpeg",
+    "static/media/programming.jpg": "/github.io/evgenylahav/static/media/programming.ae48eb14.jpg",
+    "static/media/romi.jpeg": "/github.io/evgenylahav/static/media/romi.4028caff.jpeg",
+    "static/media/romi_bw.jpeg": "/github.io/evgenylahav/static/media/romi_bw.78173da5.jpeg",
+    "static/media/romi_kodon.jpeg": "/github.io/evgenylahav/static/media/romi_kodon.9da3b691.jpeg",
+    "static/media/romi_with_model.jpeg": "/github.io/evgenylahav/static/media/romi_with_model.ea79d67a.jpeg"
+  }
+}
