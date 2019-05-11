@@ -20,6 +20,7 @@ export class LandingPage extends React.Component<LandingPageProps, LandingPageSt
                         <Image src={im1} roundedCircle className="profile-pic" />
                         <h2 className='me'>Evgeny Lahav</h2>
                         <h4>Software engineer, practicing with Python, JavaScript and React</h4>
+                        <h4>Check out my <a href='/resume'>resume</a>, <a href='/aboutme'>about me</a> and my <a href='/blog'>blog</a> and be in touch</h4>
                     </Col>
                 </Row>
                 {/* <Social /> */}

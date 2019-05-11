@@ -7,9 +7,11 @@ import { NavigationBar } from './components/common/NavigationBar';
 import { Layout, Content } from 'react-mdl';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faVenus, faUsers, faPlaneDeparture, faChild,
-         faBasketballBall, faHamburger, faCoffee, faTv, faDog } from '@fortawesome/free-solid-svg-icons'
+         faBasketballBall, faHamburger, faCoffee, faTv, faDog,
+         faCalendarAlt, faTags } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faVenus, faUsers, faPlaneDeparture, faBasketballBall, faHamburger, faCoffee, faTv, faChild, faDog);
+library.add(faVenus, faUsers, faPlaneDeparture, faBasketballBall, 
+            faHamburger, faCoffee, faTv, faChild, faDog, faCalendarAlt, faTags);
 
 function App() {
   return (

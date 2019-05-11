@@ -26,7 +26,7 @@ export class Resume extends React.Component<ResumeCompProps, ResumeCompState> {
                             <div style={{textAlign: 'center'}}>
                                 <Image src={im1} roundedCircle className="resume-profile-pic" />
                             </div>
-                            <h2 style={{textAlign: 'center'}}>Evgeny Lahav</h2>
+                            <h3 style={{textAlign: 'center'}}>Evgeny Lahav</h3>
                             <h4 style={{color: 'grey', textAlign: 'center'}}>Software Engineer</h4>                 
                             <hr/>
                             <p style={{paddingTop: '5px'}}>An experienced and enthuziastic SW engineer, specializing in Python, JavaScript and React</p>
@@ -38,7 +38,7 @@ export class Resume extends React.Component<ResumeCompProps, ResumeCompState> {
                             <h5>website</h5>
                             <p>...</p>
                             <hr/>
-                            <h2>Skills</h2>
+                            <h3>Skills</h3>
                             <Skills skill='Python' skillLevel={70}/>
                             <Skills skill='JavaScript' skillLevel={55}/>
                             <Skills skill='React' skillLevel={65}/>
@@ -46,9 +46,10 @@ export class Resume extends React.Component<ResumeCompProps, ResumeCompState> {
                             <Skills skill='SW Design and Architecture' skillLevel={60}/>
                             <Skills skill='Clean Code' skillLevel={80}/>
                             <hr/>
-                            <h2>Projects</h2>
+                            <h3>Side Projects</h3>
                             <ul>
-                                <li><a href='https://exercism.io/' target="_blank">Excersicm</a></li>
+                                <li>Personal portfolio website</li>
+                                <li><a href='https://exercism.io/' target="_blank">Excersicm: Python, JavaScript</a></li>
                                 <li><a href='https://www.100daysofcode.com/' target="_blank">100 Days Of Code</a></li>
                             </ul>
 
@@ -56,7 +57,7 @@ export class Resume extends React.Component<ResumeCompProps, ResumeCompState> {
                         <Col sm={1} className='verticalLine' />
                         
                         <Col xs={12} sm={7}>
-                            <h2>Experience</h2>
+                            <h3>Experience</h3>
                             <ResumeLine 
                                 startYear='2016' 
                                 endYear='current' 
@@ -102,7 +103,7 @@ export class Resume extends React.Component<ResumeCompProps, ResumeCompState> {
                                 description={['Execution of manual SW qualification', 'Leading a team of 5 testers']}
                             />
                             <hr/>
-                            <h2>Education</h2>
+                            <h3>Education</h3>
                             <ResumeLine 
                                 startYear='2014' 
                                 endYear='2018' 

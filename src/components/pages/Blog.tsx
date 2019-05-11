@@ -43,13 +43,24 @@ export class Blog extends React.Component<BlogProps, BlogState> {
                         />
                     </InputGroup>
                 </Row>
-                <BlogPost header={'Python'} title={'Exercises'} 
-                          text={'Practice, practice, practice. Check out some exercises in different topics, and give it a try'} 
-                          url='/'
-                          img={pythonImgTips}
-                />
-                <BlogPost header={'Python'} title={'Digging into unittest'} text={''} url='/' img={pythonImgExercises} />
-                <BlogPost header={'JavaScript'} title={'Working with Arrays'} text={''} url='/' img={jsImgTips} />
+                <BlogPost header='Python' title='Exercises' 
+                          text='Practice, practice, practice. Check out some exercises in different topics, and give it a try'
+                          url='/blog_1'
+                          date='Oct 01, 2018'
+                          tags='Python, Exercises'
+                          img={pythonImgTips} />
+                <BlogPost header='Python' title='Digging into unittest'
+                          text='Unit testing is a mandatory part of each programmers toolbox. This blog will dig into the built-in Python unittest package'
+                          url='/blog_2'
+                          date='Dec 01, 2018'
+                          tags='Python, Unit Tests' 
+                          img={pythonImgExercises} />
+                <BlogPost header='JavaScript' title='Working with Arrays'
+                          text='Working with arrays in JavaScript is extreemly useful. Specifically when implementing it in Front-end development.'
+                          url='/blog_3' 
+                          date='Jan 01, 2019'
+                          tags='JavaScript, React, Arrays'
+                          img={jsImgTips} />
 
              </Container>
         );
