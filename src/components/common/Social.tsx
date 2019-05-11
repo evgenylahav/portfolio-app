@@ -24,6 +24,7 @@ export class Social extends React.Component<SocialProps, SocialState> {
                         type="twitter"
                         href="https://twitter.com/kodon23"
                         target="_blank"
+                        rel="noopener noreferrer"
                     >
                     </AwesomeButtonSocial>
                     <AwesomeButtonSocial
@@ -31,6 +32,7 @@ export class Social extends React.Component<SocialProps, SocialState> {
                         type="github"
                         href="https://github.com/evgenylahav"
                         target="_blank"
+                        rel="noopener noreferrer"
                     >
                     </AwesomeButtonSocial>
                     <AwesomeButtonSocial
@@ -38,15 +40,16 @@ export class Social extends React.Component<SocialProps, SocialState> {
                         type="linkedin"
                         href="https://www.linkedin.com/in/evgeny-lahav"
                         target="_blank"
+                        rel="noopener noreferrer"
                     >
                     </AwesomeButtonSocial>
-                    <AwesomeButtonSocial
+                    {/* <AwesomeButtonSocial
                         cssModule={AwesomeButtonStyles}
                         type="youtube"
                         href="https://www.linkedin.com/in/evgeny-lahav"
                         target="_blank"
                     >
-                    </AwesomeButtonSocial>
+                    </AwesomeButtonSocial> */}
                 </Row>
             </div>
         );

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Image, Card, Button } from 'react-bootstrap';
+import { Image, Card } from 'react-bootstrap';
 import './BlogPost.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
