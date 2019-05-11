@@ -36,7 +36,7 @@ export class Resume extends React.Component<ResumeCompProps, ResumeCompState> {
                             <h5>mobile</h5>
                             <p>+972-(0)5444-86872</p>
                             <h5>website</h5>
-                            <p>...</p>
+                            <p><a href='https://evgenylahav.github.io/blog'>https://evgenylahav.github.io/blog</a></p>
                             <hr/>
                             <h3>Skills</h3>
                             <Skills skill='Python' skillLevel={70}/>
