@@ -20,23 +20,23 @@ const Styles = styled.div`
 export const NavigationBar = () => (
   <Styles>
       <Navbar bg="light" expand="lg">
-            <Navbar.Brand href="/">
+            <Navbar.Brand href="/portfolio-app">
                 <Image src={logo} className='brand-pic' style={{maxWidth: '90px'}}/>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
                     <Nav.Link>
-                        <Link to="/">Home</Link>
+                        <Link to="/portfolio-app">Home</Link>
                     </Nav.Link>
                     <Nav.Link>
-                        <Link to="/resume">Resume</Link>
+                        <Link to="/portfolio-app/resume">Resume</Link>
                     </Nav.Link>
                     <Nav.Link>
-                        <Link to="/aboutme">About Me</Link>
+                        <Link to="/portfolio-app/aboutme">About Me</Link>
                     </Nav.Link>
                     <Nav.Link>
-                        <Link to="/blog">Blog</Link>
+                        <Link to="/portfolio-app/blog">Blog</Link>
                     </Nav.Link>
                     <Social />
                 </Nav>

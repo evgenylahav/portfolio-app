@@ -23,14 +23,14 @@ export class Router extends React.Component<RouterProps, RouterState> {
     public render() {
         return (
             <Switch>
-                <Route exact path="/" component={LandingPage}/>
-                <Route path="/resume" component={Resume}/>
-                <Route path="/aboutme" component={AboutMe}/>
-                <Route path="/content" component={Content}/>
-                <Route path="/blog" component={Blog}/>
-                    <Route path="/blog_1" component={BlogPythonExercises}/>
-                    <Route path="/blog_2" component={BlogPythonUnittest}/>
-                    <Route path="/blog_3" component={BlogJSArrays}/>
+                <Route exact path="/portfolio-app" component={LandingPage}/>
+                <Route path="/portfolio-app/resume" component={Resume}/>
+                <Route path="/portfolio-app/aboutme" component={AboutMe}/>
+                <Route path="/portfolio-app/content" component={Content}/>
+                <Route path="/portfolio-app/blog" component={Blog}/>
+                    <Route path="/portfolio-app/blog_1" component={BlogPythonExercises}/>
+                    <Route path="/portfolio-app/blog_2" component={BlogPythonUnittest}/>
+                    <Route path="/portfolio-app/blog_3" component={BlogJSArrays}/>
                 {/* </Route> */}
                 <Route path="/contactme" component={ContactMe}/>
             </Switch>
