@@ -28,9 +28,9 @@ export class Router extends React.Component<RouterProps, RouterState> {
                 <Route path="/portfolio-app/aboutme" component={AboutMe}/>
                 <Route path="/portfolio-app/content" component={Content}/>
                 <Route path="/portfolio-app/blog" component={Blog}/>
-                    <Route path="/portfolio-app/blog_1" component={BlogPythonExercises}/>
-                    <Route path="/portfolio-app/blog_2" component={BlogPythonUnittest}/>
-                    <Route path="/portfolio-app/blog_3" component={BlogJSArrays}/>
+                <Route path="/portfolio-app/blog_1" component={BlogPythonExercises}/>
+                <Route path="/portfolio-app/blog_2" component={BlogPythonUnittest}/>
+                <Route path="/portfolio-app/blog_3" component={BlogJSArrays}/>
                 {/* </Route> */}
                 <Route path="/contactme" component={ContactMe}/>
             </Switch>

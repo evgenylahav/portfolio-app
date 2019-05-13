@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Image, Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './BlogPost.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -26,7 +27,8 @@ export class BlogPost extends React.Component<BlogPostProps, BlogPostState> {
                         {this.props.text}
                         <Image src={this.props.img} className='blog-icon'/>  
                     </Card.Text>
-                    <a href={this.props.url}>Continue Reading >></a>
+                    <Link to={this.props.url}>Continue Reading >></Link>
+                    {/* <a href={this.props.url}>Continue Reading >></a> */}
                     <FontAwesomeIcon icon="calendar-alt"/>{this.props.date}
                     <FontAwesomeIcon icon="tags"/>{this.props.tags}
 
