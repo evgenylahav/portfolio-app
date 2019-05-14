@@ -13,25 +13,16 @@
 }
 
 .aboutme-grid{
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
-.aboutme-grid h2{
-    font-family: 'Playfair Display', serif;
-    font-size: 50px;
-    font-weight: bold;
-    color: black;
-    padding-top: 40px;
-    // text-align: center;
-    // width: 75%;
-}
 
 .aboutme-grid h3{
     font-family: 'Indie Flower', cursive;
     font-size: 30px;
     color: black;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     width: 75%;
 }
 .aboutme hr {

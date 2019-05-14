@@ -20,7 +20,6 @@ export class Resume extends React.Component<ResumeCompProps, ResumeCompState> {
         return (
             <div>
                 <Container className='resume-container'>
-                    <h3>My Resume</h3>
                     <Row>
                         <Col xs={12} sm={4}>
                             <div style={{textAlign: 'center'}}>

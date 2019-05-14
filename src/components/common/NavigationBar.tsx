@@ -36,7 +36,7 @@ export const NavigationBar = () => (
                         <Link to="/portfolio-app/aboutme">About Me</Link>
                     </Nav.Link>
                     <Nav.Link>
-                        <Link to="/portfolio-app/blog">Blog</Link>
+                        <Link to="/portfolio-app/blog" style={{marginRight: '50px'}}>Blog</Link>
                     </Nav.Link>
                     <Social />
                 </Nav>

@@ -7,6 +7,15 @@ import family from '../../assets/family.jpeg';
 import bgPic from '../../assets/desert.jpg';
 import coffee from '../../assets/coffee.jpg';
 
+import im1 from '../../assets/belle.jpeg';
+import im2 from '../../assets/family.jpeg';
+import im3 from '../../assets/kodon_solo.jpeg';
+import im7 from '../../assets/romi_bw.jpeg';
+import im8 from '../../assets/romi_kodon.jpeg';
+import im9 from '../../assets/romi_with_model.jpeg';
+import im10 from '../../assets/romi.jpeg';
+
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
@@ -25,11 +34,10 @@ export class AboutMe extends React.Component<AboutMeProps, AboutMeState> {
                 {/* <h3>Discover who am I as a person outside of my day job</h3> */}
                 <Container>
                     <Row>
-                        <Col xs={12} sm={8} sm-offset={2} style={{ paddingBottom: '100px' }}>
+                        <Col xs={12} sm={8} style={{ paddingBottom: '100px' }}>
                             {/* <Image src={profilePic} roundedCircle className="about-profile-pic" /> */}
                             <h3>A few facts about myself</h3>
                             <ul>
-
                                 <FontAwesomeIcon icon="plane-departure" />
                                 <li>
                                     I love traveling. Especially with my family. We have explored several unforgetable places
@@ -62,12 +70,15 @@ export class AboutMe extends React.Component<AboutMeProps, AboutMeState> {
 
                             </ul>
                         </Col>
-                        <Col xs={12} sm={4} sm-offset={2} style={{ paddingBottom: '100px' }}>
-                            {/* <Image src={coffee}  style={{height: '5%'}}/> */}
+                        <Col xs={12} sm={4}>
+                            <Image src={im10}  style={{maxHeight: '200px', width: 'auto', marginLeft: '50px'}}/>
+                            <hr />
+                            <Image src={im2}  style={{maxHeight: '200px', width: 'auto', marginLeft: '50px'}}/>
+                            <hr />
                         </Col>
 
 
-                        <Col xs={12} sm={8} sm-offset={2} style={{ paddingBottom: '100px' }}>
+                        <Col xs={12} sm={8}>
                             {/* <Image src={family} roundedCircle className="about-profile-pic" /> */}
                             <h3>My family</h3>
                             <ul>
@@ -91,10 +102,16 @@ export class AboutMe extends React.Component<AboutMeProps, AboutMeState> {
                                 </li>
                             </ul>
                         </Col>
+                        <Col xs={12} sm={4}>
+                            <Image src={im3}  style={{maxHeight: '200px', width: 'auto', marginLeft: '50px'}}/>
+                            <hr />
+                            <Image src={im7}  style={{maxHeight: '200px', width: 'auto', marginLeft: '50px'}}/>
+                            <hr />
+                        </Col>
 
                         {/* <Image src={programmingPic} roundedCircle className="about-profile-pic" /> */}
                         <h3>Me as a software engineer</h3>
-                        <Col xs={12} sm={8} sm-offset={2} style={{ paddingBottom: '100px' }}>
+                        <Col xs={12} sm={8} style={{ paddingBottom: '100px' }}>
                             <ul>
                                 <li>
                                     I made quite a few turn arounds during my proffessional career. First I was in love with image processing.
@@ -122,12 +139,18 @@ export class AboutMe extends React.Component<AboutMeProps, AboutMeState> {
                             </li>
                             </ul>
                         </Col>
+                        <Col xs={12} sm={4}>
+                            <Image src={im8}  style={{maxHeight: '200px', width: 'auto', marginLeft: '50px'}}/>
+                            <hr />
+                            <Image src={im9}  style={{maxHeight: '200px', width: 'auto', marginLeft: '50px'}}/>
+                            <hr />
+                        </Col>
                     </Row>
 
-                    <Row>
-                        <h2>Check us out...</h2>
+                    {/* <Row>
+                        <h3>Check us out...</h3>
                         <ImageGallery />
-                    </Row>
+                    </Row> */}
 
                 </Container>
             </div>
