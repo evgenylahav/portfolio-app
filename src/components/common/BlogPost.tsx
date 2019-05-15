@@ -27,10 +27,9 @@ export class BlogPost extends React.Component<BlogPostProps, BlogPostState> {
                         {this.props.text}
                         <Image src={this.props.img} className='blog-icon'/>  
                     </Card.Text>
-                    <Link to={this.props.url}>Continue Reading >></Link>
-                    {/* <a href={this.props.url}>Continue Reading >></a> */}
-                    <FontAwesomeIcon icon="calendar-alt"/>{this.props.date}
-                    <FontAwesomeIcon icon="tags"/>{this.props.tags}
+                    <FontAwesomeIcon icon="calendar-alt" style={{marginRight: '7px'}}/>  {this.props.date}
+                    <FontAwesomeIcon icon="tags" style={{marginRight: '7px', marginLeft: '15px'}}/>  {this.props.tags}
+                    <div><Link to={this.props.url}>Continue Reading >></Link></div>
 
                 </Card.Body>
             </Card>);
