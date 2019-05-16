@@ -1,13 +1,7 @@
 import * as React from 'react';
 import { Container, Col, Row, Image } from 'react-bootstrap';
-import { ImageGallery } from '../common/ImageGallery';
 import './AboutMe.scss';
-import profilePic from '../../assets/Image-1.png';
-import family from '../../assets/family.jpeg';
-import bgPic from '../../assets/desert.jpg';
-import coffee from '../../assets/coffee.jpg';
 
-import im1 from '../../assets/belle.jpeg';
 import im2 from '../../assets/family.jpeg';
 import im3 from '../../assets/kodon_solo.jpeg';
 import im7 from '../../assets/romi_bw.jpeg';
@@ -146,12 +140,6 @@ export class AboutMe extends React.Component<AboutMeProps, AboutMeState> {
                             <hr />
                         </Col>
                     </Row>
-
-                    {/* <Row>
-                        <h3>Check us out...</h3>
-                        <ImageGallery />
-                    </Row> */}
-
                 </Container>
             </div>
         );

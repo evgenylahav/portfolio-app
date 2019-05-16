@@ -7,7 +7,7 @@ import { ContactMe } from './others/ContactMe';
 import { Content } from './pages/Content';
 import { Blog } from './pages/Blog';
 
-import { BlogPythonExercises } from './content/Blog_Python_Exercises';
+import { BlogPythonNamedTuple } from './content/Blog_Python_NamedTuple';
 import { BlogPythonUnittest } from './content/Blog_Python_Unittest';
 import { BlogJSArrays } from './content/Blog_JS_Arrays';
 
@@ -28,7 +28,7 @@ export class Router extends React.Component<RouterProps, RouterState> {
                 <Route path="/portfolio-app/aboutme" component={AboutMe}/>
                 <Route path="/portfolio-app/content" component={Content}/>
                 <Route path="/portfolio-app/blog" component={Blog}/>
-                <Route path="/portfolio-app/blog_1" component={BlogPythonExercises}/>
+                <Route path="/portfolio-app/blog_1" component={BlogPythonNamedTuple}/>
                 <Route path="/portfolio-app/blog_2" component={BlogPythonUnittest}/>
                 <Route path="/portfolio-app/blog_3" component={BlogJSArrays}/>
                 {/* </Route> */}

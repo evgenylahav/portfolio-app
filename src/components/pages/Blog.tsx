@@ -22,11 +22,11 @@ import './Blog.scss';
 const blogList = [
     {
         header: 'Python',
-        title: 'Exercises',
-        text: 'Practice, practice, practice. Check out some exercises in different topics, and give it a try',
+        title: 'Named Tuple',
+        text: 'Named tuple is a very handy special python structure that creates tuples with keys',
         url: '/portfolio-app/blog_1',
         date: 'Oct 01, 2018',
-        tags: 'Python, Exercises',
+        tags: 'python, namedtuple, collections',
         img: 'http://lorenabarba.com/wp-content/uploads/2014/05/keep-calm-and-code-python_BW.png'
     },
     {
