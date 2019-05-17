@@ -31,21 +31,21 @@ const blogList = [
     },
     {
         header: 'Python',
-        title: 'Digging into unittest',
-        text: 'Unit testing is a mandatory part of each programmers toolbox. This blog will dig into the built-in Python unittest package',
+        title: 'First order functions and closures',
+        text: 'First order functions and closures are required when we want to pass functions as variables. This blog will describe their functionality and provide some examples',
         url: '/portfolio-app/blog_2',
         date: 'Dec 01, 2018',
-        tags: 'Python, Unit Tests, unittest',
+        tags: 'Python, First order functions, closures',
         img: 'https://raw.githubusercontent.com/revesansparole/pkglts/master/avatar.png'
     },
     {
-        header: 'JavaScript',
-        title: 'Working with Arrays',
-        text: 'Working with arrays in JavaScript is extreemly useful. Specifically when implementing it in Front-end development.',
+        header: 'Python',
+        title: 'Dunders',
+        text: 'Dunders also known as special methods and double unders. These methods are extreemly useful for building compact and readable classes by using predefined capabilities provided by the language features',
         url: '/portfolio-app/blog_3',
         date: 'Jan 01, 2019',
-        tags: 'JavaScript, React, Arrays',
-        img: 'https://res.cloudinary.com/teepublic/image/private/s--Zg45bEvj--/t_Preview/b_rgb:191919,c_limit,f_jpg,h_630,q_90,w_630/v1539381322/production/designs/3309111_0.jpg'
+        tags: 'Python, Dunders, Special methods',
+        img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMYpRq_mwG_lMcikwGpnJaRK7sNn5mu3mG27VVByeuDHVNjn-y'
     }
 ]
 

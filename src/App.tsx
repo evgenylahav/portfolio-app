@@ -9,6 +9,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { faVenus, faUsers, faPlaneDeparture, faChild,
          faBasketballBall, faHamburger, faCoffee, faTv, faDog,
          faCalendarAlt, faTags } from '@fortawesome/free-solid-svg-icons'
+import { FooterComp } from './components/common/FooterComp';
 
 library.add(faVenus, faUsers, faPlaneDeparture, faBasketballBall, 
             faHamburger, faCoffee, faTv, faChild, faDog, faCalendarAlt, faTags);
@@ -21,6 +22,7 @@ function App() {
         <Content>
             <Jumbotron />
             <Router />
+            {/* <FooterComp /> */}
         </Content>
       </Layout>
     </div>

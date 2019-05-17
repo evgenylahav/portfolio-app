@@ -9,9 +9,11 @@ import { Social } from './Social';
 const Styles = styled.div`
   .navbar {
     background-color: #222;
+    display: 'flow-root';
   }
   a, .navbar-brand, .navbar-nav .nav-link {
     color: #222222;
+    display: 'flow-root';
     &:hover {
       color: #bbb;
     }
@@ -38,7 +40,9 @@ export const NavigationBar = () => (
                     <Nav.Link>
                         <Link to="/portfolio-app/blog" style={{marginRight: '50px'}}>Blog</Link>
                     </Nav.Link>
-                    <Social />
+                    <span style={{marginLeft: '50px'}}>
+                      <Social />
+                    </span>
                 </Nav>
             </Navbar.Collapse>
       </Navbar>

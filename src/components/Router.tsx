@@ -8,8 +8,8 @@ import { Content } from './pages/Content';
 import { Blog } from './pages/Blog';
 
 import { BlogPythonNamedTuple } from './content/Blog_Python_NamedTuple';
-import { BlogPythonUnittest } from './content/Blog_Python_Unittest';
-import { BlogJSArrays } from './content/Blog_JS_Arrays';
+import { BlogPythonFirstOrderFunctions } from './content/Blog_Python_FirstOrderFunctions';
+import { BlogPythonDunders } from './content/Blog_Python_Dunders';
 
 export interface RouterProps {}
 export interface RouterState {}
@@ -29,8 +29,8 @@ export class Router extends React.Component<RouterProps, RouterState> {
                 <Route path="/portfolio-app/content" component={Content}/>
                 <Route path="/portfolio-app/blog" component={Blog}/>
                 <Route path="/portfolio-app/blog_1" component={BlogPythonNamedTuple}/>
-                <Route path="/portfolio-app/blog_2" component={BlogPythonUnittest}/>
-                <Route path="/portfolio-app/blog_3" component={BlogJSArrays}/>
+                <Route path="/portfolio-app/blog_2" component={BlogPythonFirstOrderFunctions}/>
+                <Route path="/portfolio-app/blog_3" component={BlogPythonDunders}/>
                 {/* </Route> */}
                 <Route path="/contactme" component={ContactMe}/>
             </Switch>
