@@ -10,6 +10,10 @@ import { Blog } from './pages/Blog';
 import { BlogPythonNamedTuple } from './content/Blog_Python_NamedTuple';
 import { BlogPythonFirstOrderFunctions } from './content/Blog_Python_FirstOrderFunctions';
 import { BlogPythonDunders } from './content/Blog_Python_Dunders';
+import { BlogPythonClasses } from './content/Blog_Python_Classes';
+import { BlogPythonDependencies } from './content/Blog_Python_Dependencies_Management';
+import { BlogPythonDecorators } from './content/Blog_Python_Decorators';
+
 
 export interface RouterProps {}
 export interface RouterState {}
@@ -31,6 +35,9 @@ export class Router extends React.Component<RouterProps, RouterState> {
                 <Route path="/portfolio-app/blog_1" component={BlogPythonNamedTuple}/>
                 <Route path="/portfolio-app/blog_2" component={BlogPythonFirstOrderFunctions}/>
                 <Route path="/portfolio-app/blog_3" component={BlogPythonDunders}/>
+                <Route path="/portfolio-app/blog_4" component={BlogPythonClasses}/>
+                <Route path="/portfolio-app/blog_5" component={BlogPythonDependencies}/>
+                <Route path="/portfolio-app/blog_6" component={BlogPythonDecorators}/>
                 {/* </Route> */}
                 <Route path="/contactme" component={ContactMe}/>
             </Switch>
