@@ -3,8 +3,6 @@ import { Switch, Route } from 'react-router-dom';
 import { LandingPage } from './pages/LandingPage';
 import { Resume } from './pages/Resume';
 import { AboutMe } from './pages/AboutMe';
-import { ContactMe } from './others/ContactMe';
-import { Content } from './pages/Content';
 import { Blog } from './pages/Blog';
 
 import { BlogPythonNamedTuple } from './content/Blog_Python_NamedTuple';
@@ -30,7 +28,6 @@ export class Router extends React.Component<RouterProps, RouterState> {
                 <Route exact path="/portfolio-app" component={LandingPage}/>
                 <Route path="/portfolio-app/resume" component={Resume}/>
                 <Route path="/portfolio-app/aboutme" component={AboutMe}/>
-                <Route path="/portfolio-app/content" component={Content}/>
                 <Route path="/portfolio-app/blog" component={Blog}/>
                 <Route path="/portfolio-app/blog_1" component={BlogPythonNamedTuple}/>
                 <Route path="/portfolio-app/blog_2" component={BlogPythonFirstOrderFunctions}/>
@@ -38,10 +35,7 @@ export class Router extends React.Component<RouterProps, RouterState> {
                 <Route path="/portfolio-app/blog_4" component={BlogPythonClasses}/>
                 <Route path="/portfolio-app/blog_5" component={BlogPythonDependencies}/>
                 <Route path="/portfolio-app/blog_6" component={BlogPythonDecorators}/>
-                {/* </Route> */}
-                <Route path="/contactme" component={ContactMe}/>
             </Switch>
-            
         );
     }
 }

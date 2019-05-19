@@ -46,7 +46,7 @@ export const NavigationBar = () => (
                     <Nav.Link>
                         <Link to="/portfolio-app/blog" style={{marginRight: '50px'}}>Blog</Link>
                     </Nav.Link>
-                    <span style={{marginLeft: '50px'}}>
+                    <span style={{marginLeft: '170px'}}>
                       <Social />
                     </span>
                 </Nav>
