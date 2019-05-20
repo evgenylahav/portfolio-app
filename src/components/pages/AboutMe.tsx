@@ -8,6 +8,8 @@ import im7 from '../../assets/romi_bw.jpeg';
 import im8 from '../../assets/romi_kodon.jpeg';
 import im9 from '../../assets/romi_with_model.jpeg';
 import im10 from '../../assets/romi.jpeg';
+import im11 from '../../assets/belle.jpeg';
+import im12 from '../../assets/romi_an_belle.jpeg';
 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -139,6 +141,38 @@ export class AboutMe extends React.Component<AboutMeProps, AboutMeState> {
                             <Image src={im9}  style={{maxHeight: '200px', width: 'auto', marginLeft: '50px'}}/>
                             <hr />
                         </Col>
+                        <Col xs={12} sm={8} style={{ paddingBottom: '100px' }}>
+                            <h3>Recommended Books</h3>
+                            <ul>
+                                <li>
+                                    <a href='https://roadtoreact.com/' target="_blank" rel="noopener noreferrer">The road to learn React |</a>
+                                    <a href='https://twitter.com/rwieruch' target="_blank" rel="noopener noreferrer">| Robin Wieruch</a>
+                                </li>
+                                <li>
+                                    <a href='https://martinfowler.com/books/refactoring.html' target="_blank" rel="noopener noreferrer">Refactoring |</a>
+                                    <a href='https://twitter.com/martinfowler' target="_blank" rel="noopener noreferrer">| Martin Fowler</a>
+                                </li>
+                                <li>
+                                    <a href='https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882' target="_blank" rel="noopener noreferrer">Clean Code |</a>
+                                    <a href='https://twitter.com/unclebobmartin' target="_blank" rel="noopener noreferrer">| Bob Martin (Uncle Bob)</a>
+                                </li>
+                                <li>
+                                    <a href='https://effectivepython.com/' target="_blank" rel="noopener noreferrer">Effective Python |</a>
+                                    <a href='https://twitter.com/haxor' target="_blank" rel="noopener noreferrer">| Brett Slatkin (Uncle Bob)</a>
+                                </li>
+                                <li>
+                                    <a href='http://effectivejs.com/' target="_blank" rel="noopener noreferrer">Effective JavaScript |</a>
+                                    <a href='https://twitter.com/littlecalculist' target="_blank" rel="noopener noreferrer">| David Herman (Uncle Bob)</a>
+                                </li>
+                            </ul>
+                        </Col>
+                        <Col xs={12} sm={4}>
+                            <Image src={im12}  style={{maxHeight: '200px', width: 'auto', marginLeft: '110px'}}/>
+                            <hr />
+                            <Image src={im11}  style={{maxHeight: '200px', width: 'auto', marginLeft: '50px'}}/>
+                            <hr />
+                        </Col>
+
                     </Row>
                 </Container>
             </div>

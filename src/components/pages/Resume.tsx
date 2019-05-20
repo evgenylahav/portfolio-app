@@ -47,11 +47,10 @@ export class Resume extends React.Component<ResumeCompProps, ResumeCompState> {
                             <hr/>
                             <h3>Side Projects</h3>
                             <ul>
-                                <li>Personal portfolio website</li>
+                                <li><a href='/portfolio-app' target="_blank" rel="noopener noreferrer">Personal portfolio website</a></li>
                                 <li><a href='https://exercism.io/' target="_blank" rel="noopener noreferrer">Excersicm: Python, JavaScript</a></li>
                                 <li><a href='https://www.100daysofcode.com/' target="_blank" rel="noopener noreferrer">100 Days Of Code</a></li>
                             </ul>
-
                         </Col>
                         <Col sm={1} className='verticalLine' />
                         
