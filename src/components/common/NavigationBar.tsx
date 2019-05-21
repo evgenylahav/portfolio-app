@@ -12,7 +12,6 @@ const Styles = styled.div`
   }
   a, .navbar-brand, .navbar-nav .nav-link {
     color: #0022aa;
-    font-size: 16;
     display: 'flow-root';
     &:hover {
       color: #bbb;
@@ -35,16 +34,16 @@ export const NavigationBar = () => (
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
           <Nav.Link>
-            <Link to="/portfolio-app" style={{color: 'blue'}}>Home</Link>
+            <Link to="/portfolio-app" style={{color: 'blue', fontSize: '19px'}}>Home</Link>
           </Nav.Link>
           <Nav.Link>
-            <Link to="/portfolio-app/resume" style={{color: 'blue'}}>Resume</Link>
+            <Link to="/portfolio-app/resume" style={{color: 'blue', fontSize: '19px'}}>Resume</Link>
           </Nav.Link>
           <Nav.Link>
-            <Link to="/portfolio-app/aboutme" style={{color: 'blue'}}>About Me</Link>
+            <Link to="/portfolio-app/aboutme" style={{color: 'blue', fontSize: '19px'}}>About Me</Link>
           </Nav.Link>
           <Nav.Link>
-            <Link to="/portfolio-app/blog" style={{ color:'blue', marginRight: '50px' }}>Blog</Link>
+            <Link to="/portfolio-app/blog" style={{ color:'blue', marginRight: '50px', fontSize: '19px' }}>Blog</Link>
           </Nav.Link>
           <span style={{ marginLeft: '150px' }}>
             <Social />
