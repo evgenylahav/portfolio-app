@@ -10,7 +10,7 @@ export class BlogPythonNamedTuple extends React.Component<any, any> {
             <Container className='blog-container'>
                 <h2>Python Blog: Collections Module - namedtuple()</h2>
                 <p>                
-                    Collections module provides special enhancements for the regular containers in Python, such as dict, list, tuple and set. This week we will cover the namedtuple factory function that creates tuples with named fields.
+                    Collections module provides special enhancements for the regular containers in Python, such as dict, list, tuple and set. This blog will cover the <i>namedtuple()</i> factory function that creates tuples with named fields.
                 </p>
 
                 <h3>problem description:</h3>
@@ -24,7 +24,11 @@ bob = ('Bob', 30, 'male')
 jane = ('Jane', 29, 'female')
 
 for p in [bob, jane]:
-    print('{} is a {} year old {}'.format(p[0], p[1], p[2]))`} />
+    print('{} is a {} year old {}'.format(p[0], p[1], p[2]))
+    
+>>> Bob is a 30 year old male
+>>> Jane is a 29 year old female
+`} />
                 
                 <h3>namedtuple definition:</h3>
                 
@@ -43,7 +47,11 @@ bob = Person(name='Bob', age=30, gender='male')
 jane = Person(name='Jane', age=29, gender='female')
  
 for p in [bob, jane]:
-    print('{} is a {} year old {}'.format(p.name, p.age, p.gender))`} />
+    print('{} is a {} year old {}'.format(p.name, p.age, p.gender))
+    
+>>> Bob is a 30 year old male
+>>> Jane is a 29 year old female
+`} />
 
                 <p>
                     <strong><i>rename</i></strong> handles cases where the field names of the tuple are invalid - duplicated or using keywords as 'def'. if 'rename' is defined to True, it will handle those invalid field names and will not raise an exception. For example, ['abc', 'def', 'ghi', 'abc'] is converted to ['abc', '_1', 'ghi', '_3'], eliminating the keyword def and the duplicate fieldname abc.
@@ -73,7 +81,11 @@ bob = Person(name='Bob', age=30, gender='male')
 jane = Person(name='Jane', age=29, gender='female')
  
 for p in [bob, jane]:
-    print('{} is a {} year old {}'.format(p.name, p.age, p.gender))`} />
+    print('{} is a {} year old {}'.format(p.name, p.age, p.gender))
+    
+>>> Bob is a 30 year old male
+>>> Jane is a 29 year old female
+`} />
 
                 <p>
                     _make method makes a new instance from an existing sequence or iterable:
@@ -85,7 +97,9 @@ Account = namedtuple('Account', ['owner', 'balance', 'transaction_count'])
 John = ['John Doe', 1000, 1]
 johns_account = Account._make(John)
  
-print(johns_account)`} />
+print(johns_account)
+
+>>> Account(owner='John Doe', balance=1000, transaction_count=1)`} />
 
                 <p>
                     it is also easy to add fields to namedtuples by using the _fields attribute:
@@ -98,7 +112,11 @@ Point = namedtuple('Point', ['x', 'y'])
 Point3D = namedtuple('Point3D', Point._fields + ('z',))
  
 for p in Point(3,4), Point3D(10, 0, 3):
-    print(p)`} />
+    print(p)
+    
+>>> Point(x=3, y=4)
+>>> Point3D(x=10, y=0, z=3)
+`} />
 
                 <p>
                     lastly, for creating defaults or templates namedtuples, that will later be modified, we should use the _replace attribute.
@@ -135,22 +153,32 @@ print(johns_account)
 Account(owner='John', balance=0.0, transaction_count=0)`} />
 
                 <p>
-                    in sys sw domain, the named tuples can be extremely useful when working with csv files.
+                    Named tuples can be extremely useful when working with csv files. Say we have this csv file:
                 </p>
+                <CodeBlock language='csv' code={`empl.csv
+
+John Smith, 35, Accounting
+Erica Meyers, 29, IT`} />
+                <p>
+                    We could use namedtuple() to parse it
+                </p>
+
                 <CodeBlock language='python' code={`# csv reader
  
 import csv
+from collections import namedtuple
+
 EmployeeRecord = namedtuple('EmployeeRecord', ['name', 'age', 'title'])
  
 a = csv.reader(open("empl.csv", "rt"))
 for emp in map(EmployeeRecord._make, a):
-    print(emp.name, emp.title)`} />
+    print(emp.name, emp.title)
+    
+>>> John Smith  Accounting
+>>> Erica Meyers  IT
+`} />
 
-                <CodeBlock language='csv' code={`empl.csv
-
-John Smith,Accounting,November
-Erica Meyers,IT,March`} />
-
+                
                 <hr />
 
                 <p>

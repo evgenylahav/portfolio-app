@@ -22,6 +22,9 @@ export class LandingPage extends React.Component<LandingPageProps, LandingPageSt
                         <Image src={im1} roundedCircle className="profile-pic" />
                         <h2 className='me'>Evgeny Lahav</h2>
                         <h4>Software engineer, practicing with Python, JavaScript and React</h4>
+                        <p>This page was created as part of the <a href='https://www.100daysofcode.com/' target="_blank" rel="noopener noreferrer">100 Days of Code</a> initiative. It took me the first 30 days of the commitment, to create the first beta version of the site.</p>
+                        <p>Since already created it, I thought it would be a good idea to have a blog section as well, which I'm planning to maintain and add new content from time to time.</p>
+                        <hr />
                         <h4>Check out my <Link to="/portfolio-app/resume">resume</Link>,  
                                          <Link to='/portfolio-app/aboutme'> about me</Link> and my 
                                          <Link to='/portfolio-app/blog'> blog</Link> and be in touch</h4>

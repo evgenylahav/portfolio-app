@@ -5,17 +5,15 @@ import styled from 'styled-components';
 import logo from "../../assets/elahav.png"
 import { Social } from './Social';
 
-import './NavigationBar.scss';
-
 const Styles = styled.div`
   .navbar {
     background-color: white;
-    display: 'contents';
+    display: 'flow-root';
   }
   a, .navbar-brand, .navbar-nav .nav-link {
     color: #0022aa;
     font-size: 16;
-    display: 'contents';
+    display: 'flow-root';
     &:hover {
       color: #bbb;
     }
@@ -23,13 +21,12 @@ const Styles = styled.div`
   }
   .basic-navbar-nav{
     background-color: white;
-    display: 'contents';
+    display: 'flow-root';
   }
   `;
 
 export const NavigationBar = () => (
-  // <Styles>
-    <Row className='navbar'>
+  <Styles>
     <Navbar expand="lg" style={{ backgroundColor: 'white' }}>
       <Navbar.Brand href="/portfolio-app">
         <Image src={logo} className='brand-pic' style={{ maxWidth: '110px', marginTop: '-10px' }} />
@@ -49,12 +46,11 @@ export const NavigationBar = () => (
           <Nav.Link>
             <Link to="/portfolio-app/blog" style={{ color:'blue', marginRight: '50px' }}>Blog</Link>
           </Nav.Link>
-          <span style={{ marginLeft: '90px' }}>
+          <span style={{ marginLeft: '150px' }}>
             <Social />
           </span>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
-    </Row>
-  // </Styles >
+  </Styles >
 )

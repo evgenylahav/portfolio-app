@@ -2,7 +2,7 @@
     {
         "header":"Python",
         "title": "Named Tuple",
-        "text": "Named tuple is a very handy special python structure that creates tuples with keys",
+        "text": "Named tuple is a very handy special python structure that creates tuples with keys. This blog will review this structure and will provide some 'getting started' examples",
         "url": "/portfolio-app/blog_1",
         "date": "Oct 01, 2018",
         "tags": "python, namedtuple, collections",
