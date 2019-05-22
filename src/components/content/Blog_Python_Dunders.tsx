@@ -86,7 +86,7 @@ if __name__ == '__main__':
                 <p>
                     this usage basically lets the programmer to run the module itself, which can be convenient during development.
 
-                    Note - a good programming practice for production code is not to use this pattern. A better way is to run the module from its test module
+                    Note - a good programming practice for production code is not to use this pattern. A better way is to run the module from its testing module
                 </p>
 
                 <h3>Object Representation: __str__, __repr__</h3>

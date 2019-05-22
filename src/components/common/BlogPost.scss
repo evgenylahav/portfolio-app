@@ -11,6 +11,10 @@
 .blog-icon {
     float: right;
     margin-top: 5px;
-    max-width: 80px;
+    max-width: 130px;
+}
+
+.card-text {
+    grid-template-columns: 4fr 2fr;
 }
 

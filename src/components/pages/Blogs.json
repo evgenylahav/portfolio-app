@@ -6,16 +6,16 @@
         "url": "/portfolio-app/blog_1",
         "date": "Oct 01, 2018",
         "tags": "python, namedtuple, collections",
-        "img": "http://lorenabarba.com/wp-content/uploads/2014/05/keep-calm-and-code-python_BW.png"
+        "img": "http://getalltechnology.com/wp-content/uploads/2018/11/Python-Collections-OrderedDict-DefaultDict-And-Namedtuple.jpg"
     },
     {
         "header": "Python",
         "title": "First order functions and closures",
-        "text": "First order functions and closures are required when we want to pass functions as variables. This blog will describe their functionality and provide some examples",
+        "text": "First order functions and closures are required when we want to pass functions as variables. This blog will describe their functionality and show some basics examples",
         "url": "/portfolio-app/blog_2",
         "date": "Dec 01, 2018",
         "tags": "Python, First order functions, closures",
-        "img": "https://raw.githubusercontent.com/revesansparole/pkglts/master/avatar.png"
+        "img": "https://lh5.googleusercontent.com/proxy/-MWenRhG3tEHIKl2IdfBoa21L0_8koZu0inUjPiyrKPoKoNBbfDALiKxe59jxddEmDB_OfYSMdcIsQjT=w1200-h630-n-k-no-nu"
     },
     {
         "header": "Python",
@@ -24,7 +24,7 @@
         "url": "/portfolio-app/blog_3",
         "date": "Jan 01, 2019",
         "tags": "Python, Dunders, Special methods",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMYpRq_mwG_lMcikwGpnJaRK7sNn5mu3mG27VVByeuDHVNjn-y"
+        "img": "https://www.python-course.eu/images/marvin_the_magician.png"
     },
     {
         "header": "Python",
@@ -33,7 +33,7 @@
         "url": "/portfolio-app/blog_4",
         "date": "Jan 08, 2019",
         "tags": "Python, Classes, Objects, Object Oriented",
-        "img": "https://raw.githubusercontent.com/revesansparole/pkglts/master/avatar.png"
+        "img": "http://lorenabarba.com/wp-content/uploads/2014/05/keep-calm-and-code-python_BW.png"
     },
     {
         "header": "Python",
@@ -42,7 +42,7 @@
         "url": "/portfolio-app/blog_5",
         "date": "Jan 15, 2019",
         "tags": "Python, Virtual Environment, pip, Dependencies",
-        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMYpRq_mwG_lMcikwGpnJaRK7sNn5mu3mG27VVByeuDHVNjn-y"
+        "img": "https://raw.githubusercontent.com/revesansparole/pkglts/master/avatar.png"
     },
     {
         "header": "Python",
@@ -51,6 +51,6 @@
         "url": "/portfolio-app/blog_6",
         "date": "Jan 23, 2019",
         "tags": "Python, Decorators",
-        "img": "http://lorenabarba.com/wp-content/uploads/2014/05/keep-calm-and-code-python_BW.png"
+        "img": "https://cdn-images-1.medium.com/max/800/1*Np2xWAiiQmq9LfwOquDOuQ.png"
     }
 ]
