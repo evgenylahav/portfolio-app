@@ -15,7 +15,7 @@ of these concepts. Enjoy.
                 <p>
                     What does the class do. Recommended to use: docstrings
                 </p>
-                <CodeBlock language='python' code={`class Circle(object):
+                <CodeBlock language='python' code={`class Circle:
     """
     advanced circle toolkit
     """`} />
@@ -23,37 +23,48 @@ of these concepts. Enjoy.
                 <p>
                 Use the __init__ method to initialize the instance variables. Note: __init__ is not a constructor (more about it later)
                 </p>
-                <CodeBlock language='python' code={`def __init__(self, radius):
-    """
- __init__ is not a constructor. its job is to initialize the
- instance variables
- """
- self.radius = radius # instance variable`} />
+                <CodeBlock language='python' code={`    def __init__(self, radius):
+        """
+        __init__ is not a constructor. its job is to initialize the
+        instance variables
+        """
+        self.radius = radius # instance variable`} />
 
                 <h3>Class and instance variables:</h3>
                 <p>
-                Class variables have the same values across all class instances. Defined after class definition.
-
-Instance variables have different values for each object instance.
-
 Opposed to other OO languages, instance variables and class variables are not protected, and are open for users' modification. In Python, all doors are opened.
                 </p>
-                <CodeBlock language='python' code={`class Circle(object):
+                <CodeBlock language='python' code={`class Circle:
     """
     an advanced circle toolkit
     """
     version = "0.1" # class variable`} />
+                <p>
+                    Class variables have the same values across all class instances. Defined after class definition.
+
+                    Instance variables have different values for each object instance.
+                </p>
                 
                 <h3>Classes inheritance:</h3>
                 <p>
                     Every class is able to inherit from another class and by that to either use, extend or override its functionality.
 
-When not defining a specific functionality in the child class, we're using the functionality of the parent class (as for example the __init__ and area methods in our example)
+When not defining a specific functionality in the child class, we're using the functionality of the parent class (as for example the __init__ and perimeter methods in the example below).
 
-When using the parent class method and adding some functionality to it, we're extending the functionality (as in the perimeter method)
+When using the parent class method and adding some functionality to it, we're extending the functionality (as in the perimeter method).
 
-When replacing a parent class method with a method of our own, we're overriding its functionality
+When replacing a parent class method with a method of our own, we're overriding its functionality.
                 </p>
+                <p>
+                Defining a perimeter method in the Circle class:
+                </p>
+                <CodeBlock language='python' code={`    def perimeter(self):
+        return 2 * math.pi * self.radius`} />
+
+                <p>
+                    Defining a new class and overriding the perimeter method:
+                </p>
+
                 <CodeBlock language='python' code={`class Tire(Circle):
     """
     Tires are circles with a corrected perimeter calculation
@@ -61,7 +72,7 @@ When replacing a parent class method with a method of our own, we're overriding 
     def perimeter(self):
         return Circle.perimeter(self) * 1.25`} />
 
-                <p>When writing classes, expect them to be inherited and modified</p>
+                <Alert variant="info">When writing classes, expect them to be inherited and modified</Alert>
                 
                 <h3>Alternative constructors:</h3>
                 <p>
@@ -131,7 +142,6 @@ def radius(self):
                 <h3>Summary:</h3>
                 <p>Here is a summary of all the concepts that are supposed to make our classes better:</p>
                 <ul>
-                    <li>Inherit from object()</li>
                     <li>Instance variables for information unique to an instance</li>
                     <li>Class variables for data shared among all instances</li>
                     <li>Regular methods need 'self' to operate on instance data</li>

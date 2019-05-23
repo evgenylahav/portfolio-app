@@ -143,6 +143,9 @@ export class AboutMe extends React.Component<AboutMeProps, AboutMeState> {
                         </Col>
                         <Col xs={12} sm={8} style={{ paddingBottom: '100px' }}>
                             <h3>Recommended Books</h3>
+                            <p>Since we are already into speaking about programming, here are a few great books that I have read and can recommend.</p>
+                            <p>Disclosure 1: I'm not getting anything out of it.</p>
+                            <p>Disclosure 2: I didn't read all the content of all of these books. Sometimes I jump back and forth, depending of my current interests.</p>
                             <ul>
                                 <li>
                                     <a href='https://roadtoreact.com/' target="_blank" rel="noopener noreferrer">The road to learn React |</a>

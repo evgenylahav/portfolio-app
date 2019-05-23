@@ -11,12 +11,12 @@ export class BlogPythonDependencies extends React.Component<any, any> {
                 <p>
                 It is very important to understand the dependencies management and environments management in Python.
 
-We're used to work with general purpose installers as anaconda and miniconda (https://conda.io/miniconda.html). However when developing production products, it is generally a good idea
+There are general purpose installers as anaconda and miniconda (https://conda.io/miniconda.html). However when developing production products, it is generally a good idea
 to bring the working environment as close as possible to production. That is done by working with virtual environments.
                 </p>
                 <h3>venv:</h3>
                 <p>
-                The <a href="https://docs.python.org/3.6/library/venv.html#module-venv">venv</a> module provides support for creating lightweight “virtual environments” with their own site directories, optionally isolated from system site directories. 
+                The <a href="https://docs.python.org/3.6/library/venv.html#module-venv" style={{color: 'blue'}}>venv</a> module provides support for creating lightweight “virtual environments” with their own site directories, optionally isolated from system site directories. 
 Each virtual environment has its own Python binary (allowing creation of environments with various Python versions) and can have its own independent 
 set of installed Python packages in its site directories.
 
@@ -30,7 +30,7 @@ venv package is built-in in Python.
                 <CodeBlock language='bash' code={`# python -m venv /path/to/folder/
 # for example
  
-python -m venv ./practice-venv`} />
+$python -m venv ./practice-venv`} />
 
                 <p>
 The new environment is created and the content of the folder contains Include, Lib and Scripts folders and a pyvenv.cfg file</p>
@@ -38,11 +38,11 @@ The new environment is created and the content of the folder contains Include, L
                 <CodeBlock language='bash' code={`$ ls
 Include/  Lib/  pyvenv.cfg  Scripts/`} />
 
-                <p>from this point it will be more convenient to work within Pycharm</p>
+                <p>from this point it will be more convenient to work within the IDE.</p>
                 
                 <h3>Selecting the interpreter and activating</h3>
                 <p>
-                To start using the virtual environment one need to select the interpreter and to activate it as following:
+                To start using the virtual environment one need to select the interpreter and to activate it as following (note: the procedure refers to Pycharm):
                 </p>
                 <ul>
                     <li>ctrl+alt+s to open settings</li>
@@ -57,7 +57,7 @@ Include/  Lib/  pyvenv.cfg  Scripts/`} />
                     <li>close the terminal and open it again. it should now be marked as (local environment name)</li>
                 </ul>
                 <p>test:</p>
-                <CodeBlock language='python' code={`pip list
+                <CodeBlock language='bash' code={`pip list
 >>>
 Package    Version
 ---------- -------

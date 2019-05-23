@@ -29,7 +29,7 @@ export class BlogPost extends React.Component<BlogPostProps, BlogPostState> {
                     </Card.Text>
                     <FontAwesomeIcon icon="calendar-alt" style={{marginRight: '7px'}}/>  {this.props.date}
                     <FontAwesomeIcon icon="tags" style={{marginRight: '7px', marginLeft: '15px'}}/>  {this.props.tags}
-                    <div><Link to={this.props.url}>Continue Reading >></Link></div>
+                    <div><Link to={this.props.url} style={{color: 'blue'}}>Continue Reading >></Link></div>
 
                 </Card.Body>
             </Card>);
