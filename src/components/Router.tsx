@@ -1,17 +1,9 @@
 import * as React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { LandingPage } from './pages/LandingPage';
-import { Resume } from './pages/Resume';
-import { AboutMe } from './pages/AboutMe';
-import { Blog } from './pages/Blog';
+import { LandingPage, Resume, AboutMe, Blog } from './pages';
 
-import { BlogPythonNamedTuple } from './content/Blog_Python_NamedTuple';
-import { BlogPythonFirstOrderFunctions } from './content/Blog_Python_FirstOrderFunctions';
-import { BlogPythonDunders } from './content/Blog_Python_Dunders';
-import { BlogPythonClasses } from './content/Blog_Python_Classes';
-import { BlogPythonDependencies } from './content/Blog_Python_Dependencies_Management';
-import { BlogPythonDecorators } from './content/Blog_Python_Decorators';
-
+import { BlogPythonNamedTuple, BlogPythonFirstOrderFunctions, BlogPythonDunders,
+    BlogPythonClasses, BlogPythonDependencies, BlogPythonDecorators } from './content';
 
 export interface RouterProps {}
 export interface RouterState {}

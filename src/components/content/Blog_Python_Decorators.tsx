@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Container, Alert } from 'react-bootstrap';
-import { CodeSnippet as CodeBlock } from '../common/CodeBlock';
+import { CodeSnippet as CodeBlock } from '../common';
 import { Link } from 'react-router-dom';
 
 export class BlogPythonDecorators extends React.Component<any, any> {

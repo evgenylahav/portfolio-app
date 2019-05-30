@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
-import { ResumeLine } from '../common/ResumeLine';
-import { Skills } from '../common/Skills';
+import { ResumeLine, Skills } from '../common';
+
 import im1 from "../../assets/Image-1.png";
 import bgu from '../../assets/bgu.png';
 import amat from '../../assets/amat.jpg'

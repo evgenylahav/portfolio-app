@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Container } from 'react-bootstrap';
-import { CodeSnippet as CodeBlock } from '../common/CodeBlock';
+import { CodeSnippet as CodeBlock } from '../common';
 import './BlogsStyling.scss';
 
 

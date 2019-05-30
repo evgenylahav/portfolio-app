@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Row, Form, Container } from 'react-bootstrap';
-import { BlogPost } from '../common/BlogPost';
+import { BlogPost } from '../common';
 import './Blog.scss';
 
 import blogList from './Blogs.json';
