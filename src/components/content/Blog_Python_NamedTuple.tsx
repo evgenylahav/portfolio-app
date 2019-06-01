@@ -183,7 +183,7 @@ for emp in map(EmployeeRecord._make, a):
 
                 <p>
                     find more information about namedtuples and the collections module in the official python documentation:               
-                    <a href='https://docs.python.org/3/library/collections.html' target='_blank'>    
+                    <a href='https://docs.python.org/3/library/collections.html' target='_blank' rel="noopener noreferrer">    
                         https://docs.python.org/3/library/collections.html
                     </a>
                 </p>

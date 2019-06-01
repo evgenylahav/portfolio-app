@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Nav, Navbar, Image, Row, Col } from 'react-bootstrap';
+import { Nav, Navbar, Image } from 'react-bootstrap';
 import styled from 'styled-components';
 import logo from "../../assets/elahav.png"
 import { Social } from './Social';

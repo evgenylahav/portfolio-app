@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import './App.css';
-import { Router, Jumbotron, NavigationBar, FooterComp } from '..';
+import { Router, Jumbotron, NavigationBar, FooterComp } from '../';
 
 import { Layout, Content } from 'react-mdl';
 import { library } from '@fortawesome/fontawesome-svg-core';
