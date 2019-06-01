@@ -1,5 +1,5 @@
 import * as React from 'react';
-import  { Grid,  Cell, ProgressBar } from 'react-mdl';
+import { Container, Col, Row, ProgressBar } from 'react-bootstrap';
 
 export interface SkillsProps {
     skill: string;
@@ -12,22 +12,23 @@ export interface SkillsState {
 export class Skills extends React.Component<SkillsProps, SkillsState> {
     render() {
         return(
-            <Grid>
-                <Cell col={4}>
+            <Container>
+                {/* <Row> */}
+                <Col sm={8} xs={12}>
                     <div style={{display: 'flex'}}>
                         {this.props.skill}
                     </div>
-                </Cell>
-                <Cell col={8}>
+                </Col>
+                <Col sm={12} xs={12}>
                     <div>
                         <ProgressBar 
-                            progress={this.props.skillLevel}
-                            style={{color: 'green', marginTop: '10px'}}
+                            now={this.props.skillLevel}
+                            style={{color: 'green', marginBottom: '20px'}}
                         />
                     </div>
-                </Cell>
-
-            </Grid>
+                </Col>
+                {/* </Row> */}
+            </Container>
         );
     }
 }

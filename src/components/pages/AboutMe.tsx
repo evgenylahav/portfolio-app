@@ -26,7 +26,7 @@ export class AboutMe extends React.Component<AboutMeProps, AboutMeState> {
 
     public render() {
         return (
-            <div className='aboutme-grid'>
+            <div className='aboutme-grid' data-test='aboutme-div'>
                 {/* <h3>Discover who am I as a person outside of my day job</h3> */}
                 <Container>
                     <Row>

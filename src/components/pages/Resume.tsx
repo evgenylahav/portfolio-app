@@ -18,7 +18,7 @@ export class Resume extends React.Component<ResumeCompProps, ResumeCompState> {
 
     public render() {
         return (
-            <div>
+            <div data-test='resume-page'>
                 <Container className='resume-container'>
                     <Row>
                         <Col xs={12} sm={4}>

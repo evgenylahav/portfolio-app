@@ -1,0 +1,308 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutMe unit test has a valid snapshot 1`] = `
+<div
+  className="aboutme-grid"
+  data-test="aboutme-div"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-sm-8 col-12"
+        style={
+          Object {
+            "paddingBottom": "100px",
+          }
+        }
+      >
+        <h3>
+          A few facts about myself
+        </h3>
+        <ul>
+          <li>
+            I love traveling. Especially with my family. We have explored several unforgetable places and hopefully many more will follow.
+          </li>
+          <li>
+            I am a sports enthusiast, although, unfortunatelly, as a viewer. I love Tennis and Basketball the most, but during big events such as the Olympics or the World Cup, I watch everything there is.
+          </li>
+          <li>
+            I love food. Both making and eating. This is really a weakness of mine, and I'm paying for that with a horrible BMI rate.
+          </li>
+          <li>
+            I love coffee - can't live without it. I usually drink 5-6 cups a day, with a mixture of cappucinno, black Turkish and my favorite - double espresso.
+          </li>
+          <li>
+            I am a fan of TV shows, watching quite a few on Netflix and other platforms. Among the best I've watched are: 'Better Call Soul', 'Dark', 'Bron', 'Breaking Bad', 'Fargo', 'Narcos' and others
+          </li>
+        </ul>
+      </div>
+      <div
+        className="col-sm-4 col-12"
+      >
+        <img
+          className=""
+          src="romi.jpeg"
+          style={
+            Object {
+              "marginLeft": "50px",
+              "maxHeight": "200px",
+              "width": "auto",
+            }
+          }
+        />
+        <hr />
+        <img
+          className=""
+          src="family.jpeg"
+          style={
+            Object {
+              "marginLeft": "50px",
+              "maxHeight": "200px",
+              "width": "auto",
+            }
+          }
+        />
+        <hr />
+      </div>
+      <div
+        className="col-sm-8 col-12"
+      >
+        <h3>
+          My family
+        </h3>
+        <ul>
+          <li>
+            I am happily married to Yardena who I love very much. She is a school councelor and a pschycoterapist, and one of the smartest people I know. We are best friends for over a decade and a half, and she definitely is the most influencial person in my life.
+          </li>
+          <li>
+            I am a father of Romi who is 7 now, and is my biggest love and pride in the world. She is a smart and beautiful girl, who likes to swim, play the piano and watch tv.
+          </li>
+          <li>
+            We have a lovely little Yorkshire Terrier named Belle, who is a genuine part of our family, and who never spends a night outside of our bed.
+          </li>
+        </ul>
+      </div>
+      <div
+        className="col-sm-4 col-12"
+      >
+        <img
+          className=""
+          src="kodon_solo.jpeg"
+          style={
+            Object {
+              "marginLeft": "50px",
+              "maxHeight": "200px",
+              "width": "auto",
+            }
+          }
+        />
+        <hr />
+        <img
+          className=""
+          src="romi_bw.jpeg"
+          style={
+            Object {
+              "marginLeft": "50px",
+              "maxHeight": "200px",
+              "width": "auto",
+            }
+          }
+        />
+        <hr />
+      </div>
+      <h3>
+        Me as a software engineer
+      </h3>
+      <div
+        className="col-sm-8 col-12"
+        style={
+          Object {
+            "paddingBottom": "100px",
+          }
+        }
+      >
+        <ul>
+          <li>
+            I made quite a few turn arounds during my proffessional career. First I was in love with image processing. Then with elecro-optics, specifically with optical design, but now I feel that I found what I was looking for all this time - software.
+          </li>
+          <li>
+            Having the experience and a broader look of the makes me a better programmer. I guess that it's called maturity, and I found, that it is a required asset in our industry.
+          </li>
+          <li>
+            I really am into good coding practices. I watched many lectures of SW world icons as 'Uncle Bob', Martin Fowler, Linus Torvalds, Guido Van-Rossum, Kevlin Henney, Raymond Hettinger and others. I also have read several books regarding this subject, amongs them 'Clean Code' by Bob Martin and 'Refactoring' by Martin Fowler.
+          </li>
+          <li>
+            I understand that learning is not enough. In order to become profficient and comfortable with new and existing technologies, you have to practice, and practice a lot. The same as we expect our pilots, phisicians and repair-men to be experts, so must we. I found that except practicing and getting better all the time in our daily work, there are other great platforms like excersism.io, freeCodeCamp, Medium, youtube and others.
+          </li>
+          <li>
+            One thing that I'm still postponing, hopefully not for long, is taking part in an open source code project. It should be really awesome, and I can't wait to get to it rather sooner than later.
+          </li>
+        </ul>
+      </div>
+      <div
+        className="col-sm-4 col-12"
+      >
+        <img
+          className=""
+          src="romi_kodon.jpeg"
+          style={
+            Object {
+              "marginLeft": "50px",
+              "maxHeight": "200px",
+              "width": "auto",
+            }
+          }
+        />
+        <hr />
+        <img
+          className=""
+          src="romi_with_model.jpeg"
+          style={
+            Object {
+              "marginLeft": "50px",
+              "maxHeight": "200px",
+              "width": "auto",
+            }
+          }
+        />
+        <hr />
+      </div>
+      <div
+        className="col-sm-8 col-12"
+        style={
+          Object {
+            "paddingBottom": "100px",
+          }
+        }
+      >
+        <h3>
+          Recommended Books
+        </h3>
+        <p>
+          Since we are already into speaking about programming, here are a few great books that I have read and can recommend.
+        </p>
+        <p>
+          Disclosure 1: I'm not getting anything out of it.
+        </p>
+        <p>
+          Disclosure 2: I didn't read all the content of all of these books. Sometimes I jump back and forth, depending of my current interests.
+        </p>
+        <ul>
+          <li>
+            <a
+              href="https://roadtoreact.com/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              The road to learn React |
+            </a>
+            <a
+              href="https://twitter.com/rwieruch"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              | Robin Wieruch
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://martinfowler.com/books/refactoring.html"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Refactoring |
+            </a>
+            <a
+              href="https://twitter.com/martinfowler"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              | Martin Fowler
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Clean Code |
+            </a>
+            <a
+              href="https://twitter.com/unclebobmartin"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              | Bob Martin (Uncle Bob)
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://effectivepython.com/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Effective Python |
+            </a>
+            <a
+              href="https://twitter.com/haxor"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              | Brett Slatkin
+            </a>
+          </li>
+          <li>
+            <a
+              href="http://effectivejs.com/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Effective JavaScript |
+            </a>
+            <a
+              href="https://twitter.com/littlecalculist"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              | David Herman
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        className="col-sm-4 col-12"
+      >
+        <img
+          className=""
+          src="romi_an_belle.jpeg"
+          style={
+            Object {
+              "marginLeft": "110px",
+              "maxHeight": "200px",
+              "width": "auto",
+            }
+          }
+        />
+        <hr />
+        <img
+          className=""
+          src="belle.jpeg"
+          style={
+            Object {
+              "marginLeft": "50px",
+              "maxHeight": "200px",
+              "width": "auto",
+            }
+          }
+        />
+        <hr />
+      </div>
+    </div>
+  </div>
+</div>
+`;

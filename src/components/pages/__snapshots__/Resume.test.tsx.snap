@@ -1,0 +1,789 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutMe unit test has a valid snapshot 1`] = `
+<div
+  data-test="resume-page"
+>
+  <div
+    className="resume-container container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-sm-4 col-12"
+      >
+        <div
+          style={
+            Object {
+              "textAlign": "center",
+            }
+          }
+        >
+          <img
+            className="resume-profile-pic rounded-circle"
+            src="Image-1.png"
+          />
+        </div>
+        <h3
+          style={
+            Object {
+              "textAlign": "center",
+            }
+          }
+        >
+          Evgeny Lahav
+        </h3>
+        <h4
+          style={
+            Object {
+              "color": "grey",
+              "textAlign": "center",
+            }
+          }
+        >
+          Software Engineer
+        </h4>
+        <hr />
+        <p
+          style={
+            Object {
+              "paddingTop": "5px",
+            }
+          }
+        >
+          An experienced and enthuziastic SW engineer, specializing in Python, JavaScript and React
+        </p>
+        <hr />
+        <h5>
+          email
+        </h5>
+        <p>
+          evgeny.lahav@gmail.com
+        </p>
+        <h5>
+          mobile
+        </h5>
+        <p>
+          +972-(0)5444-86872
+        </p>
+        <h5>
+          website
+        </h5>
+        <p>
+          <a
+            href="https://evgenylahav.github.io/portfolio-app/"
+          >
+            https://evgenylahav.github.io/portfolio-app/
+          </a>
+        </p>
+        <hr />
+        <h3>
+          Skills
+        </h3>
+        <div
+          className="container"
+        >
+          <div
+            className="col-sm-8 col-12"
+          >
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              Python
+            </div>
+          </div>
+          <div
+            className="col-sm-12 col-12"
+          >
+            <div>
+              <div
+                className="progress"
+                style={
+                  Object {
+                    "color": "green",
+                    "marginBottom": "20px",
+                  }
+                }
+              >
+                <div
+                  aria-valuemax={100}
+                  aria-valuemin={0}
+                  aria-valuenow={70}
+                  className="progress-bar"
+                  role="progressbar"
+                  style={
+                    Object {
+                      "width": "70%",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="container"
+        >
+          <div
+            className="col-sm-8 col-12"
+          >
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              JavaScript
+            </div>
+          </div>
+          <div
+            className="col-sm-12 col-12"
+          >
+            <div>
+              <div
+                className="progress"
+                style={
+                  Object {
+                    "color": "green",
+                    "marginBottom": "20px",
+                  }
+                }
+              >
+                <div
+                  aria-valuemax={100}
+                  aria-valuemin={0}
+                  aria-valuenow={55}
+                  className="progress-bar"
+                  role="progressbar"
+                  style={
+                    Object {
+                      "width": "55%",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="container"
+        >
+          <div
+            className="col-sm-8 col-12"
+          >
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              React
+            </div>
+          </div>
+          <div
+            className="col-sm-12 col-12"
+          >
+            <div>
+              <div
+                className="progress"
+                style={
+                  Object {
+                    "color": "green",
+                    "marginBottom": "20px",
+                  }
+                }
+              >
+                <div
+                  aria-valuemax={100}
+                  aria-valuemin={0}
+                  aria-valuenow={65}
+                  className="progress-bar"
+                  role="progressbar"
+                  style={
+                    Object {
+                      "width": "65%",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="container"
+        >
+          <div
+            className="col-sm-8 col-12"
+          >
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              Scientific Programming
+            </div>
+          </div>
+          <div
+            className="col-sm-12 col-12"
+          >
+            <div>
+              <div
+                className="progress"
+                style={
+                  Object {
+                    "color": "green",
+                    "marginBottom": "20px",
+                  }
+                }
+              >
+                <div
+                  aria-valuemax={100}
+                  aria-valuemin={0}
+                  aria-valuenow={85}
+                  className="progress-bar"
+                  role="progressbar"
+                  style={
+                    Object {
+                      "width": "85%",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="container"
+        >
+          <div
+            className="col-sm-8 col-12"
+          >
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              SW Design and Architecture
+            </div>
+          </div>
+          <div
+            className="col-sm-12 col-12"
+          >
+            <div>
+              <div
+                className="progress"
+                style={
+                  Object {
+                    "color": "green",
+                    "marginBottom": "20px",
+                  }
+                }
+              >
+                <div
+                  aria-valuemax={100}
+                  aria-valuemin={0}
+                  aria-valuenow={60}
+                  className="progress-bar"
+                  role="progressbar"
+                  style={
+                    Object {
+                      "width": "60%",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="container"
+        >
+          <div
+            className="col-sm-8 col-12"
+          >
+            <div
+              style={
+                Object {
+                  "display": "flex",
+                }
+              }
+            >
+              Clean Code
+            </div>
+          </div>
+          <div
+            className="col-sm-12 col-12"
+          >
+            <div>
+              <div
+                className="progress"
+                style={
+                  Object {
+                    "color": "green",
+                    "marginBottom": "20px",
+                  }
+                }
+              >
+                <div
+                  aria-valuemax={100}
+                  aria-valuemin={0}
+                  aria-valuenow={80}
+                  className="progress-bar"
+                  role="progressbar"
+                  style={
+                    Object {
+                      "width": "80%",
+                    }
+                  }
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <h3>
+          Side Projects
+        </h3>
+        <ul>
+          <li>
+            <a
+              href="/portfolio-app"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Personal portfolio website
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://exercism.io/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Excersicm: Python, JavaScript
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.100daysofcode.com/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              100 Days Of Code
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        className="verticalLine col-sm-1"
+      />
+      <div
+        className="col-sm-7 col-12"
+      >
+        <h3>
+          Experience
+        </h3>
+        <div
+          className="container"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-sm-3 col-12"
+            >
+              <p
+                style={
+                  Object {
+                    "fontSize": "18px",
+                    "paddingTop": "5px",
+                  }
+                }
+              >
+                2016
+                 - 
+                current
+              </p>
+            </div>
+            <div
+              className="col-sm-9 col-12"
+            >
+              <img
+                className="resume-place-name-image img-thumbnail"
+                src="amat.jpg"
+              />
+              <h4
+                style={
+                  Object {
+                    "marginTop": "0px",
+                  }
+                }
+              >
+                Applied Materials
+              </h4>
+              <h6
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Senior Software engineer
+              </h6>
+              <ul>
+                 
+                <li>
+                  Senior Software engineer in the system SW group. The group is responsible for providing quick 
+                                               and quality solutions to support the calibration process of the tools.
+                </li>
+                <li>
+                  My responsibility was leading the transformation of the group technology from development
+                                               in scientific programming languages, to modern full-stack development with front-end in React js and
+                                               back-end in Java and Python
+                </li>
+                <li>
+                  Leading training and educational activities for the group by writing a weekly blog, preparing workshops and trainings of different sorts
+                </li>
+                <li>
+                  Documentation and implementation of the SW development concepts as defined by the SW architecture group:
+                                               CI pipeline, Git components, Modular project structures, etc...
+                </li>
+                 
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div
+          className="container"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-sm-3 col-12"
+            >
+              <p
+                style={
+                  Object {
+                    "fontSize": "18px",
+                    "paddingTop": "5px",
+                  }
+                }
+              >
+                2013
+                 - 
+                2016
+              </p>
+            </div>
+            <div
+              className="col-sm-9 col-12"
+            >
+              <img
+                className="resume-place-name-image img-thumbnail"
+                src="amat.jpg"
+              />
+              <h4
+                style={
+                  Object {
+                    "marginTop": "0px",
+                  }
+                }
+              >
+                Applied Materials
+              </h4>
+              <h6
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Software engineer
+              </h6>
+              <ul>
+                 
+                <li>
+                  Software engineer in the apps and protptypes team
+                </li>
+                <li>
+                  Responsible for developing applicationsand calibrations for the Algorithms, System and Applications groups
+                </li>
+                <li>
+                  The development was done with scientific programming tools and concepts - mainly with Python and Matlab
+                </li>
+                 
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div
+          className="container"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-sm-3 col-12"
+            >
+              <p
+                style={
+                  Object {
+                    "fontSize": "18px",
+                    "paddingTop": "5px",
+                  }
+                }
+              >
+                2007
+                 - 
+                2013
+              </p>
+            </div>
+            <div
+              className="col-sm-9 col-12"
+            >
+              <img
+                className="resume-place-name-image img-thumbnail"
+                src="amat.jpg"
+              />
+              <h4
+                style={
+                  Object {
+                    "marginTop": "0px",
+                  }
+                }
+              >
+                Applied Materials
+              </h4>
+              <h6
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                System engineer
+              </h6>
+              <ul>
+                 
+                <li>
+                  Responsible for the development side of a highly sophisticated multi-disciplinary tool
+                </li>
+                <li>
+                  Defining and executing C&Fs and feasibility tests
+                </li>
+                <li>
+                  Defining SW requirements specifications
+                </li>
+                <li>
+                  Developing analytic tools for data analysis and tool calibration
+                </li>
+                 
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div
+          className="container"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-sm-3 col-12"
+            >
+              <p
+                style={
+                  Object {
+                    "fontSize": "18px",
+                    "paddingTop": "5px",
+                  }
+                }
+              >
+                2006
+                 - 
+                2007
+              </p>
+            </div>
+            <div
+              className="col-sm-9 col-12"
+            >
+              <img
+                className="resume-place-name-image img-thumbnail"
+                src="amat.jpg"
+              />
+              <h4
+                style={
+                  Object {
+                    "marginTop": "0px",
+                  }
+                }
+              >
+                Applied Materials
+              </h4>
+              <h6
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Software QA engineer
+              </h6>
+              <ul>
+                 
+                <li>
+                  Execution of manual SW qualification
+                </li>
+                <li>
+                  Leading a team of 5 testers
+                </li>
+                 
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <h3>
+          Education
+        </h3>
+        <div
+          className="container"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-sm-3 col-12"
+            >
+              <p
+                style={
+                  Object {
+                    "fontSize": "18px",
+                    "paddingTop": "5px",
+                  }
+                }
+              >
+                2014
+                 - 
+                2018
+              </p>
+            </div>
+            <div
+              className="col-sm-9 col-12"
+            >
+              <img
+                className="resume-place-name-image img-thumbnail"
+                src="bgu.png"
+              />
+              <h4
+                style={
+                  Object {
+                    "marginTop": "0px",
+                  }
+                }
+              >
+                Ben-Gurion University
+              </h4>
+              <h6
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                M.Sc in Electro-optical engineering
+              </h6>
+              <ul>
+                 
+                <li>
+                  Grades average of 90
+                </li>
+                <li>
+                  Specialization - optical computing
+                </li>
+                <li>
+                  Thesis subject - new optical encryption system based on encryption of information of the Fourier magnitude
+                                               creating a non-linear and safe encryption system, which is simple for implementation and hard for hacking
+                </li>
+                 
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div
+          className="container"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-sm-3 col-12"
+            >
+              <p
+                style={
+                  Object {
+                    "fontSize": "18px",
+                    "paddingTop": "5px",
+                  }
+                }
+              >
+                2001
+                 - 
+                2005
+              </p>
+            </div>
+            <div
+              className="col-sm-9 col-12"
+            >
+              <img
+                className="resume-place-name-image img-thumbnail"
+                src="bgu.png"
+              />
+              <h4
+                style={
+                  Object {
+                    "marginTop": "0px",
+                  }
+                }
+              >
+                Ben-Gurion University
+              </h4>
+              <h6
+                style={
+                  Object {
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                B.Sc in Bio-Medical Engineering
+              </h6>
+              <ul>
+                 
+                <li>
+                  Grades average of 85
+                </li>
+                <li>
+                  Specialization - electronics and image processing
+                </li>
+                 
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </div>
+  </div>
+</div>
+`;

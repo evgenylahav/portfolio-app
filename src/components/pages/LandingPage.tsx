@@ -16,7 +16,7 @@ export class LandingPage extends React.Component<LandingPageProps, LandingPageSt
 
     public render() {
         return (
-            <Container className='landing-page'>
+            <Container className='landing-page' data-test='landing-page'>
                 <Row className="show-grid text-center">
                     <Col xs={12} sm={12} className='person-wrapper'>
                         <Image src={im1} roundedCircle className="profile-pic" />
