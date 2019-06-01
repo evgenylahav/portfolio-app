@@ -161,11 +161,11 @@ export class AboutMe extends React.Component<AboutMeProps, AboutMeState> {
                                 </li>
                                 <li>
                                     <a href='https://effectivepython.com/' target="_blank" rel="noopener noreferrer">Effective Python |</a>
-                                    <a href='https://twitter.com/haxor' target="_blank" rel="noopener noreferrer">| Brett Slatkin (Uncle Bob)</a>
+                                    <a href='https://twitter.com/haxor' target="_blank" rel="noopener noreferrer">| Brett Slatkin</a>
                                 </li>
                                 <li>
                                     <a href='http://effectivejs.com/' target="_blank" rel="noopener noreferrer">Effective JavaScript |</a>
-                                    <a href='https://twitter.com/littlecalculist' target="_blank" rel="noopener noreferrer">| David Herman (Uncle Bob)</a>
+                                    <a href='https://twitter.com/littlecalculist' target="_blank" rel="noopener noreferrer">| David Herman</a>
                                 </li>
                             </ul>
                         </Col>
