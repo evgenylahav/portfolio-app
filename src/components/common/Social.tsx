@@ -17,7 +17,7 @@ export class Social extends React.Component<SocialProps, SocialState> {
 
     public render() {
         return (
-            <div>
+            <div data-test="social-div">
                 <Row className="social-links">
                     <AwesomeButtonSocial
                         cssModule={AwesomeButtonStyles}

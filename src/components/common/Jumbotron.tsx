@@ -26,7 +26,7 @@ const Styles = styled.div`
 `;
 
 export const Jumbotron = () => (
-  <Styles>
+  <Styles data-test="jumbotron-test">
     <Jumbo fluid className="jumbo">
       <div className="overlay"></div>
       <Container>

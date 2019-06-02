@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Container, Col, Row, ProgressBar } from 'react-bootstrap';
+import { Container, Col, ProgressBar } from 'react-bootstrap';
 
 export interface SkillsProps {
     skill: string;
@@ -12,7 +12,7 @@ export interface SkillsState {
 export class Skills extends React.Component<SkillsProps, SkillsState> {
     render() {
         return(
-            <Container>
+            <Container data-test="skills-container">
                 {/* <Row> */}
                 <Col sm={8} xs={12}>
                     <div style={{display: 'flex'}}>

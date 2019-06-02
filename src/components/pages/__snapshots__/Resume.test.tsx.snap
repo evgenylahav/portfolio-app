@@ -83,6 +83,7 @@ exports[`AboutMe unit test has a valid snapshot 1`] = `
         </h3>
         <div
           className="container"
+          data-test="skills-container"
         >
           <div
             className="col-sm-8 col-12"
@@ -128,6 +129,7 @@ exports[`AboutMe unit test has a valid snapshot 1`] = `
         </div>
         <div
           className="container"
+          data-test="skills-container"
         >
           <div
             className="col-sm-8 col-12"
@@ -173,6 +175,7 @@ exports[`AboutMe unit test has a valid snapshot 1`] = `
         </div>
         <div
           className="container"
+          data-test="skills-container"
         >
           <div
             className="col-sm-8 col-12"
@@ -218,6 +221,7 @@ exports[`AboutMe unit test has a valid snapshot 1`] = `
         </div>
         <div
           className="container"
+          data-test="skills-container"
         >
           <div
             className="col-sm-8 col-12"
@@ -263,6 +267,7 @@ exports[`AboutMe unit test has a valid snapshot 1`] = `
         </div>
         <div
           className="container"
+          data-test="skills-container"
         >
           <div
             className="col-sm-8 col-12"
@@ -308,6 +313,7 @@ exports[`AboutMe unit test has a valid snapshot 1`] = `
         </div>
         <div
           className="container"
+          data-test="skills-container"
         >
           <div
             className="col-sm-8 col-12"
@@ -396,6 +402,7 @@ exports[`AboutMe unit test has a valid snapshot 1`] = `
         </h3>
         <div
           className="container"
+          data-test="resume-line-container"
         >
           <div
             className="row"
@@ -466,6 +473,7 @@ exports[`AboutMe unit test has a valid snapshot 1`] = `
         </div>
         <div
           className="container"
+          data-test="resume-line-container"
         >
           <div
             className="row"
@@ -529,6 +537,7 @@ exports[`AboutMe unit test has a valid snapshot 1`] = `
         </div>
         <div
           className="container"
+          data-test="resume-line-container"
         >
           <div
             className="row"
@@ -595,6 +604,7 @@ exports[`AboutMe unit test has a valid snapshot 1`] = `
         </div>
         <div
           className="container"
+          data-test="resume-line-container"
         >
           <div
             className="row"
@@ -659,6 +669,7 @@ exports[`AboutMe unit test has a valid snapshot 1`] = `
         </h3>
         <div
           className="container"
+          data-test="resume-line-container"
         >
           <div
             className="row"
@@ -723,6 +734,7 @@ exports[`AboutMe unit test has a valid snapshot 1`] = `
         </div>
         <div
           className="container"
+          data-test="resume-line-container"
         >
           <div
             className="row"

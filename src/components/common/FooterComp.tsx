@@ -15,7 +15,7 @@ export class FooterComp extends React.Component<FooterCompProps, FooterCompState
 
     public render() {
         return (
-                <Row style={{backgroundColor: "#aaa"}}>
+                <Row style={{backgroundColor: "#aaa"}} data-test="footer-row">
                     <Col xs={12} sm={4} style={{margin: '30px'}} >
                         <span style={{margin: '50px'}}>
                             <FontAwesomeIcon icon="copyright" />  Evgeny Lahav

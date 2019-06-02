@@ -5,6 +5,5 @@ export * from './FooterComp';
 export * from './Jumbotron';
 export * from './NavigationBar';
 export * from './ResumeLine';
-export * from './SideBar';
 export * from './Skills';
 export * from './Social';

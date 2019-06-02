@@ -16,7 +16,7 @@ export interface ResumeLineState {}
 export class ResumeLine extends React.Component<ResumeLineProps, ResumeLineState> {
     render() {
         return(
-            <Container>
+            <Container data-test="resume-line-container">
                 <Row>
                     <Col sm={3} xs={12}>
                         <p style={{fontSize: '18px', paddingTop: '5px'}}>{this.props.startYear} - {this.props.endYear}</p>

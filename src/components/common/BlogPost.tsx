@@ -19,7 +19,7 @@ export interface BlogPostState {}
 export class BlogPost extends React.Component<BlogPostProps, BlogPostState> {
     render() {
         return(
-            <Card className='blog-post'>
+            <Card className='blog-post' data-test='blog-card'>
                 <Card.Header>{this.props.header}</Card.Header>
                 <Card.Body>
                     <Card.Title>{this.props.title}</Card.Title>

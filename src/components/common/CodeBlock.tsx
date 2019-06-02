@@ -11,7 +11,7 @@ export interface CodeBlockState {}
 export class CodeSnippet extends React.Component<CodeBlockProps, CodeBlockState> {
     render() {
         return(
-            <div>
+            <div data-test="code-snippet-div">
                 <Highlight language={this.props.language}>
                      {this.props.code}
                 </Highlight>
