@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM, { render } from 'react-dom';
 import renderer from 'react-test-renderer';
-import { BlogPost, CodeSnippet, Skills, Social, ResumeLine, Jumbotron, FooterComp } from '.';
+import { BlogPost, CodeSnippet, Skills, Social, ResumeLine, Jumbotron, FooterComp, NavigationBar } from '.';
 import { shallow } from 'enzyme';
+import { MemoryRouter } from 'react-router-dom';
 import { testNameToKey } from 'jest-snapshot/build/utils';
 
 const renderTester = (component) => {
@@ -109,63 +110,75 @@ describe('Skills unit test', () => {
   });
 
 
-// describe('Code snippet unit test', () => {
-//     const props = {
-//       code: 'import hello',
-//       language: 'python',
-//     };
-//     it('renders without crashing', () => {
-//       const div = document.createElement('div');
-//       ReactDOM.render(<CodeSnippet {...props} />, div);
-//       ReactDOM.unmountComponentAtNode(div);
-//     });
+describe('Code snippet unit test', () => {
+    const props = {
+      code: 'import hello',
+      language: 'python',
+    };
+    it('renders without crashing', () => {
+        renderTester(<CodeSnippet {...props} />)
+    });
   
-//     it('checks that only one blog post is created', () => {
-//       const element = shallow(
-//         <CodeSnippet {...props} />
-//       );
-//       expect(element.find(`[data-test='code-snippet-div']`).length).toBe(1);
-//     });
+    it('checks that only one blog post is created', () => {
+        shallowTester(<CodeSnippet {...props} />, 'code-snippet-div', 1);
+    });
   
-//     test('has a valid snapshot', () => {
-//       const component = renderer.create(
-//         <CodeSnippet {...props} />
-//       );
-//       const tree = component.toJSON();
-//       expect(tree).toMatchSnapshot();
-//     });
-//   });
+    // test('has a valid snapshot', () => {
+    //     testSnapShot(<CodeSnippet {...props} />);
+    // });
+  });
   
 
 
-// describe('Blog post unit test', () => {
-//   const props = {
-//     title: "blog title",
-//     header: "blog header",
-//     text: "bla bla bla",
-//     url: "http://www.google.com/",
-//     date: "23-March-2019",
-//     tags: "python",
-//     img: "temp"
-//   };
-//   it('renders without crashing', () => {
-//     const div = document.createElement('div');
-//     ReactDOM.render(<BlogPost {...props} />, div);
-//     ReactDOM.unmountComponentAtNode(div);
-//   });
+describe('Blog post unit test', () => {
+  const props = {
+    title: "blog title",
+    header: "blog header",
+    text: "bla bla bla",
+    url: "http://www.google.com/",
+    date: "23-March-2019",
+    tags: "python",
+    img: "temp"
+  };
+  it('renders without crashing', () => {
+    renderTester(
+        <MemoryRouter>
+            <BlogPost {...props} />
+        </MemoryRouter>
+    );
+  });
 
-//   it('checks that only one blog post is created', () => {
-//     const element = shallow(
-//       <BlogPost {...props} />
-//     );
-//     expect(element.find(`[data-test='blog-card']`).length).toBe(1);
-//   });
+  it('checks that only one blog post is created', () => {
+    shallowTester(<BlogPost {...props} />, 'blog-card', 1);
+  });
 
-//   test('has a valid snapshot', () => {
-//     const component = renderer.create(
-//       <BlogPost {...props} />
-//     );
-//     const tree = component.toJSON();
-//     expect(tree).toMatchSnapshot();
-//   });
-// });
+  test('has a valid snapshot', () => {
+    testSnapShot(
+        <MemoryRouter>
+            <BlogPost {...props} />
+        </MemoryRouter>
+    );
+  });
+});
+
+describe('Navigation bar unit test', () => {
+    it('renders without crashing', () => {
+      renderTester(
+        <MemoryRouter>
+          <NavigationBar />
+        </MemoryRouter>
+      );
+    });
+  
+    it('checks that only one navbar is created', () => {
+      shallowTester(<NavigationBar />, 'navbar-styles', 1);
+    });
+  
+    test('has a valid snapshot', () => {  
+      testSnapShot(
+        <MemoryRouter>
+            <NavigationBar />
+        </MemoryRouter>
+      );
+    });
+});

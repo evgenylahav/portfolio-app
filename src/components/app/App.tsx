@@ -16,7 +16,7 @@ library.add(faVenus, faUsers, faPlaneDeparture, faBasketballBall,
 
 export function App() {
   return (
-    <div>
+    <div data-test="app-page">
       <Layout>
         <NavigationBar />
         {/* <SideBar /> */}

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Highlight from 'react-highlight'
-import '../../../node_modules/highlight.js/styles/dracula.css';
+import './dracula.css';
 
 export interface CodeBlockProps {
     code: string;

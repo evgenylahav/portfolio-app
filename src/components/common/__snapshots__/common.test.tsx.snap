@@ -1,5 +1,53 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Blog post unit test has a valid snapshot 1`] = `
+<div
+  className="blog-post card"
+  data-test="blog-card"
+>
+  <div
+    className="card-header"
+  >
+    blog header
+  </div>
+  <div
+    className="card-body"
+  >
+    <div
+      className="card-title h5"
+    >
+      blog title
+    </div>
+    <p
+      className="card-text card-text"
+    >
+      bla bla bla
+      <img
+        className="blog-icon"
+        src="temp"
+      />
+    </p>
+      
+    23-March-2019
+      
+    python
+    <div>
+      <a
+        href="/http://www.google.com/"
+        onClick={[Function]}
+        style={
+          Object {
+            "color": "blue",
+          }
+        }
+      >
+        Continue Reading &gt;&gt;
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Footer Component unit test has a valid snapshot 1`] = `
 <div
   className="row"
@@ -203,6 +251,296 @@ exports[`Jumbotron unit test has a valid snapshot 1`] = `
       </h1>
     </div>
   </div>
+</div>
+`;
+
+exports[`Navigation bar unit test has a valid snapshot 1`] = `
+<div
+  className="sc-bwzfXH csfohU"
+  data-test="navbar-styles"
+>
+  <nav
+    className="navbar navbar-expand-lg navbar-light"
+    style={
+      Object {
+        "backgroundColor": "white",
+      }
+    }
+  >
+    <a
+      className="navbar-brand"
+      href="/portfolio-app"
+    >
+      <img
+        className="brand-pic"
+        src="elahav.png"
+        style={
+          Object {
+            "marginTop": "-10px",
+            "maxWidth": "110px",
+          }
+        }
+      />
+    </a>
+    <button
+      aria-controls="basic-navbar-nav"
+      aria-label="Toggle navigation"
+      className=" mr-sm-2 navbar-toggler"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      aria-expanded={null}
+      className="navbar-collapse collapse"
+      id="basic-navbar-nav"
+    >
+      <div
+        className="mr-auto navbar-nav"
+        onKeyDown={[Function]}
+      >
+        <a
+          className="nav-link"
+          data-rb-event-key={null}
+          href="#"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+        >
+          <a
+            href="/portfolio-app"
+            onClick={[Function]}
+            style={
+              Object {
+                "color": "blue",
+                "fontSize": "19px",
+              }
+            }
+          >
+            Home
+          </a>
+        </a>
+        <a
+          className="nav-link"
+          data-rb-event-key={null}
+          href="#"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+        >
+          <a
+            href="/portfolio-app/resume"
+            onClick={[Function]}
+            style={
+              Object {
+                "color": "blue",
+                "fontSize": "19px",
+              }
+            }
+          >
+            Resume
+          </a>
+        </a>
+        <a
+          className="nav-link"
+          data-rb-event-key={null}
+          href="#"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+        >
+          <a
+            href="/portfolio-app/aboutme"
+            onClick={[Function]}
+            style={
+              Object {
+                "color": "blue",
+                "fontSize": "19px",
+              }
+            }
+          >
+            About Me
+          </a>
+        </a>
+        <a
+          className="nav-link"
+          data-rb-event-key={null}
+          href="#"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+        >
+          <a
+            href="/portfolio-app/blog"
+            onClick={[Function]}
+            style={
+              Object {
+                "color": "blue",
+                "fontSize": "19px",
+                "marginRight": "50px",
+              }
+            }
+          >
+            Blog
+          </a>
+        </a>
+        <span
+          style={
+            Object {
+              "marginLeft": "6em",
+            }
+          }
+        >
+          <div
+            data-test="social-div"
+          >
+            <div
+              className="social-links row"
+            >
+              <a
+                className="aws-btn aws-btn--twitter aws-btn--visible"
+                href="https://twitter.com/kodon23"
+                onClick={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseMove={[Function]}
+                onMouseUp={[Function]}
+                role="button"
+                style={Object {}}
+                target="_blank"
+                title={null}
+                to={null}
+              >
+                <span
+                  className="aws-btn__wrapper"
+                >
+                  <span
+                    className="aws-btn__content"
+                  >
+                    <span>
+                      <svg
+                        height={23}
+                        preserveAspectRatio="xMidYMid meet"
+                        space="preserve"
+                        style={
+                          Object {
+                            "marginRight": undefined,
+                          }
+                        }
+                        version="1.1"
+                        viewBox="0 0 50 50"
+                        width={30}
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M49.3,9.1c-1.8,0.8-3.6,1.3-5.6,1.5c2-1.2,3.6-3.1,4.3-5.4c-1.9,1.1-4,1.9-6.2,2.4c-1.8-1.9-4.3-3.1-7.1-3.1c-5.4,0-9.8,4.4-9.8,9.8c0,0.8,0.1,1.5,0.3,2.2C17,16.1,9.8,12.2,5,6.3c-0.8,1.4-1.3,3.1-1.3,4.9c0,3.4,1.7,6.4,4.3,8.1c-1.6-0.1-3.1-0.5-4.4-1.2v0.1c0,4.7,3.4,8.7,7.8,9.6c-0.8,0.2-1.7,0.3-2.6,0.3c-0.6,0-1.2-0.1-1.8-0.2c1.2,3.9,4.9,6.7,9.1,6.8c-3.3,2.6-7.6,4.2-12.1,4.2c-0.8,0-1.6,0-2.3-0.1c4.3,2.8,9.5,4.4,15,4.4c18,0,27.8-14.9,27.8-27.8c0-0.4,0-0.8,0-1.3C46.4,12.7,48,11,49.3,9.1z"
+                          fill="#FFF"
+                        />
+                      </svg>
+                       
+                    </span>
+                  </span>
+                </span>
+              </a>
+              <a
+                className="aws-btn aws-btn--github aws-btn--visible"
+                href="https://github.com/evgenylahav"
+                onClick={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseMove={[Function]}
+                onMouseUp={[Function]}
+                role="button"
+                style={Object {}}
+                target="_blank"
+                title={null}
+                to={null}
+              >
+                <span
+                  className="aws-btn__wrapper"
+                >
+                  <span
+                    className="aws-btn__content"
+                  >
+                    <span>
+                      <svg
+                        height={23}
+                        preserveAspectRatio="xMidYMid meet"
+                        space="preserve"
+                        style={
+                          Object {
+                            "marginRight": undefined,
+                          }
+                        }
+                        version="1.1"
+                        viewBox="0 0 50 50"
+                        width={30}
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M25,2.5C12.2,2.5,1.9,12.8,1.9,25.6c0,10.2,6.6,18.9,15.8,21.9c1.2,0.2,1.5-0.5,1.5-1.1c0-0.5,0-2.1,0-4c-6.4,1.4-7.8-3-7.8-3c-1-2.7-2.6-3.4-2.6-3.4C6.7,34.6,9,34.6,9,34.6c2.3,0.2,3.5,2.4,3.5,2.4c2.1,3.5,5.4,2.5,6.7,1.9c0.2-1.5,0.8-2.5,1.5-3.1c-5.1-0.6-10.5-2.6-10.5-11.4c0-2.5,0.9-4.6,2.4-6.2c-0.2-0.6-1-2.9,0.2-6.1c0,0,1.9-0.6,6.3,2.4c1.8-0.5,3.8-0.8,5.8-0.8s3.9,0.3,5.8,0.8c4.4-3,6.3-2.4,6.3-2.4c1.3,3.2,0.5,5.5,0.2,6.1c1.5,1.6,2.4,3.7,2.4,6.2c0,8.9-5.4,10.8-10.5,11.4c0.8,0.7,1.6,2.1,1.6,4.3c0,2.9,0,5.6,0,6.4c0,0.6,0.4,1.3,1.5,1.1C41.4,44.5,48,35.9,48,25.7C48.1,12.8,37.8,2.5,25,2.5z"
+                          fill="#FFF"
+                        />
+                      </svg>
+                       
+                    </span>
+                  </span>
+                </span>
+              </a>
+              <a
+                className="aws-btn aws-btn--linkedin aws-btn--visible"
+                href="https://www.linkedin.com/in/evgeny-lahav"
+                onClick={[Function]}
+                onMouseDown={[Function]}
+                onMouseLeave={[Function]}
+                onMouseMove={[Function]}
+                onMouseUp={[Function]}
+                role="button"
+                style={Object {}}
+                target="_blank"
+                title={null}
+                to={null}
+              >
+                <span
+                  className="aws-btn__wrapper"
+                >
+                  <span
+                    className="aws-btn__content"
+                  >
+                    <span>
+                      <svg
+                        height={23}
+                        preserveAspectRatio="xMidYMid meet"
+                        space="preserve"
+                        style={
+                          Object {
+                            "marginRight": undefined,
+                          }
+                        }
+                        version="1.1"
+                        viewBox="0 0 50 50"
+                        width={30}
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M13.8,41.7H5.4V13.6h8.4C13.8,13.6,13.8,41.7,13.8,41.7z M44.7,41.7h-8.4v-15c0-3.9-1.4-5.9-4.2-5.9c-2.2,0-3.6,1.1-4.3,3.3c0,3.5,0,17.6,0,17.6h-8.4c0,0,0.1-25.3,0-28.1h6.7l0.5,5.6h0.2c1.7-2.8,4.5-4.7,8.3-4.7c2.9,0,5.2,0.8,7,2.8s2.7,4.7,2.7,8.5L44.7,41.7L44.7,41.7z M9.6,2.3C12,2.3,14,4.2,14,6.5s-2,4.2-4.4,4.2S5.2,8.8,5.2,6.5C5.3,4.2,7.2,2.3,9.6,2.3z"
+                          fill="#FFF"
+                        />
+                      </svg>
+                       
+                    </span>
+                  </span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </span>
+      </div>
+    </div>
+  </nav>
 </div>
 `;
 

@@ -25,7 +25,7 @@ const Styles = styled.div`
   `;
 
 export const NavigationBar = () => (
-  <Styles>
+  <Styles data-test="navbar-styles">
     <Navbar expand="lg" style={{ backgroundColor: 'white' }}>
       <Navbar.Brand href="/portfolio-app">
         <Image src={logo} className='brand-pic' style={{ maxWidth: '110px', marginTop: '-10px' }} />

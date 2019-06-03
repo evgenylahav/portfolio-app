@@ -31,7 +31,7 @@ export class Blog extends React.Component<BlogProps, BlogState> {
 
     public render() {
         return (
-            <Container style={{ marginBottom: "50px" }}>
+            <Container style={{ marginBottom: "50px" }} data-test="blog-page">
                 <Row>
                     <Form>
                         <Form.Group controlId="formBasicEmail">
