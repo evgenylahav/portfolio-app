@@ -613,6 +613,51 @@ exports[`Blog Component unit test has a valid snapshot 1`] = `
         </div>
       </div>
     </div>
+    <div
+      className="blog-post card"
+      data-test="blog-card"
+    >
+      <div
+        className="card-header"
+      >
+        Python
+      </div>
+      <div
+        className="card-body"
+      >
+        <div
+          className="card-title h5"
+        >
+          Enhance your functions - basic
+        </div>
+        <p
+          className="card-text card-text"
+        >
+          Functions are the most basic and important component in our programs. There are many interesting features and capabilities provided in Python, to make our functions better and less prone to errors. We will review some of these features in this blog, and some next week.
+          <img
+            className="blog-icon"
+            src="https://pics.me.me/def-foo-args-def-foo-kwargs-fargs-args-kwargs-38635911.png"
+          />
+        </p>
+          
+        Jan 30, 2019
+          
+        Python, Functions
+        <div>
+          <a
+            href="/portfolio-app/blog_7"
+            onClick={[Function]}
+            style={
+              Object {
+                "color": "blue",
+              }
+            }
+          >
+            Continue Reading &gt;&gt;
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `;
