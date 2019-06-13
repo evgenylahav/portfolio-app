@@ -628,7 +628,7 @@ exports[`Blog Component unit test has a valid snapshot 1`] = `
         <div
           className="card-title h5"
         >
-          Enhance your functions - basic
+          Enhance your functions
         </div>
         <p
           className="card-text card-text"
@@ -642,10 +642,55 @@ exports[`Blog Component unit test has a valid snapshot 1`] = `
           
         Jan 30, 2019
           
-        Python, Functions, Basic
+        Python, Functions
         <div>
           <a
             href="/portfolio-app/blog_7"
+            onClick={[Function]}
+            style={
+              Object {
+                "color": "blue",
+              }
+            }
+          >
+            Continue Reading &gt;&gt;
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      className="blog-post card"
+      data-test="blog-card"
+    >
+      <div
+        className="card-header"
+      >
+        Python
+      </div>
+      <div
+        className="card-body"
+      >
+        <div
+          className="card-title h5"
+        >
+          Generators and iterators
+        </div>
+        <p
+          className="card-text card-text"
+        >
+          Iterators and generators are widely used in many advanced features related to functions. This blog will discusss these concepts in details.
+          <img
+            className="blog-icon"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMRpo2AzL0ceOhfeqUzEBqYeyMBreU5oD6ELRsw9MmHarNGmjJ"
+          />
+        </p>
+          
+        Feb 7, 2019
+          
+        Python, Generators, Iterators, Lists, Yield
+        <div>
+          <a
+            href="/portfolio-app/blog_8"
             onClick={[Function]}
             style={
               Object {

@@ -55,11 +55,20 @@
     },
     {
         "header": "Python",
-        "title": "Enhance your functions - basic",
+        "title": "Enhance your functions",
         "text": "Functions are the most basic and important component in our programs. There are many interesting features and capabilities provided in Python, to make our functions better and less prone to errors. We will review some of these features in this blog, and some next week.",
         "url": "/portfolio-app/blog_7",
         "date": "Jan 30, 2019",
-        "tags": "Python, Functions, Basic",
+        "tags": "Python, Functions",
         "img": "https://pics.me.me/def-foo-args-def-foo-kwargs-fargs-args-kwargs-38635911.png"
+    },
+    {
+        "header": "Python",
+        "title": "Generators and iterators",
+        "text": "Iterators and generators are widely used in many advanced features related to functions. This blog will discusss these concepts in details.",
+        "url": "/portfolio-app/blog_8",
+        "date": "Feb 7, 2019",
+        "tags": "Python, Generators, Iterators, Lists, Yield",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMRpo2AzL0ceOhfeqUzEBqYeyMBreU5oD6ELRsw9MmHarNGmjJ"
     }
 ]
