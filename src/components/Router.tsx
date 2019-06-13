@@ -4,7 +4,7 @@ import { LandingPage, Resume, AboutMe, Blog } from './pages';
 
 import { BlogPythonNamedTuple, BlogPythonFirstOrderFunctions, BlogPythonDunders,
     BlogPythonClasses, BlogPythonDependencies, BlogPythonDecorators, 
-    BlogPythonFunctionsBasic } from './content';
+    BlogPythonFunctionsBasic, BlogPythonFunctionsAdvanced } from './content';
 
 export interface RouterProps {}
 export interface RouterState {}
@@ -29,6 +29,7 @@ export class Router extends React.Component<RouterProps, RouterState> {
                 <Route path="/portfolio-app/blog_5" component={BlogPythonDependencies}/>
                 <Route path="/portfolio-app/blog_6" component={BlogPythonDecorators}/>
                 <Route path="/portfolio-app/blog_7" component={BlogPythonFunctionsBasic}/>
+                <Route path="/portfolio-app/blog_8" component={BlogPythonFunctionsAdvanced}/>
             </Switch>
         );
     }
