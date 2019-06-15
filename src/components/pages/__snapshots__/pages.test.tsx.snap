@@ -1163,6 +1163,15 @@ exports[`Resume Component unit test has a valid snapshot 1`] = `
               100 Days Of Code
             </a>
           </li>
+          <li>
+            <a
+              href="https://murmuring-brook-49304.herokuapp.com/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              The road to learn react project
+            </a>
+          </li>
         </ul>
       </div>
       <div
