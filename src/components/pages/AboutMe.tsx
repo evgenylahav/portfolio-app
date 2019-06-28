@@ -115,7 +115,7 @@ export class AboutMe extends React.Component<AboutMeProps, AboutMeState> {
                                     for all this time - software.
                             </li>
                                 <li>
-                                    Having the experience and a broader look of the makes me a better programmer. I guess that it's called maturity,
+                                    Having the experience and a broader look of the industry, makes me a better programmer. I guess that it's called maturity,
                                     and I found, that it is a required asset in our industry.
                             </li>
                                 <li>
