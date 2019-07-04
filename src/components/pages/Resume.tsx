@@ -39,11 +39,11 @@ export class Resume extends React.Component<ResumeCompProps, ResumeCompState> {
                             <hr/>
                             <h3>Skills</h3>
                             <Skills skill='Python' skillLevel={70}/>
-                            <Skills skill='JavaScript' skillLevel={55}/>
-                            <Skills skill='React' skillLevel={65}/>
+                            <Skills skill='JavaScript' skillLevel={65}/>
+                            <Skills skill='React' skillLevel={70}/>
                             <Skills skill='Scientific Programming' skillLevel={85}/>
                             <Skills skill='SW Design and Architecture' skillLevel={60}/>
-                            <Skills skill='Clean Code' skillLevel={80}/>
+                            <Skills skill='Clean Code' skillLevel={70}/>
                             <hr/>
                             <h3>Side Projects</h3>
                             <ul>
